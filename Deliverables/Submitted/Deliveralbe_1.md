@@ -77,7 +77,7 @@ Interview 3:
 			- "because the positive reinforcement would give the user a reason to keep coming back.”
 
         - Assessment:
-			- The positive reinforcements, reminders/alerts, and checklist capabilities are a must.
+			- The positive reinforcements, reminders/alerts, and checklist capabilities are a must have.
 
 Interview 4:
 
