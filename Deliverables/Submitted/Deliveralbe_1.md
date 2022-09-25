@@ -1,13 +1,12 @@
 INTRODUCTION
 ============
-
-
+For our project, our goal was to solve the problem of poor time management and inefficiency as a result of needing to look at multiple different applications in order to see different times for certain events. What we want our project to be is a calendar app that has many functions that may come in other apps, such as a to do list, but has all of the features in the same app so that the user does not need to switch apps. This will be useful to users as it would allow for them to manage all of these different ways to track things in the same app without the inconvenience of having to constantly switch apps. Ideally, we hope to build an app that is very convenient for the user to use. 
 
 INITIAL VALUE PROPOSITION
 =========================
+Plan It Out is an all-in-one calendar for users on mobile devices that allows users to better manage their time in a convenient app. 
 
-
-
+Customer Segment: Our most important customers are those who use calendars on their phone a lot, their archetypes could be anyone who uses a calendar app on mobile for many different events, and it seems that the user wants us to make an application that is efficient and does not bog down the workflow of the person using it. 
 
 INTERVIEW SUMMARIES
 ===================
@@ -81,29 +80,42 @@ Interview 3:
 
 Interview 4:
 
-        - Interviewer:
-        - Interviewee:
-        - September 24, 2022
-        - Planner app users - 
+        - Interviewer: Logan Samstag
+        - Interviewee: Devin Felton 
+        - September 22, 2022
+        - Planner app uses: Personal
 
         - Key Insights:
+			- Uses calendar for less important events, while keeping more important events in memory 
+			- Convenience is a very important for a calendar app to compete with built in calendar apps
+			- Seemed to need a big push in order to change calendar apps
+			
+	- Customer Segment: This customer seemed to want for a calendar to be very efficient and 
+	  for the calendar to be easily viewable by the user whenever they wanted to use it, i.e. the load time is not 
+	  very long on the bootup of the application. 
 
-        - Representative Quotes:
+        - Representative Quotes: “Display events in a concise place”
 
-        - Assessment:
+        - Assessment: Nice to have 
 
 Interview 5:
 
-        - Interviewer:
-        - Interviewee:
-        - September 24, 2022
-        - Planner app users - 
+        - Interviewer: Logan Samstag
+        - Interviewee: Sebastian 
+        - September 22, 2022
+        - Planner app uses: Personal 
 
         - Key Insights:
+			- Adds events when little time is avalible, such as in a waiting room, so speed is important 
+			- Important to be able to see events easily and at a fast speed 
+			- App should be faster than looking at other sources of dates, such as a school website. 
+			
+        - Customer Segment: This customer seemed to want a calendar that is simple to add events to during a day, as 
+	  the only thing that the customer used their current calendar for is simple dentist events or doctors appointments. 
+	  
+        - Representative Quotes: “Have an easy and streamlined way to add events”
 
-        - Representative Quotes:
-
-        - Assessment:
+        - Assessment: Nice to have 
 
 Interview 6:
 
