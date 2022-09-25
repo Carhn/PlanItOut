@@ -107,30 +107,51 @@ Interview 5:
 
 Interview 6:
 
-        - Interviewer: 
-        - Interviewee:
+        - Interviewer: Payton Cox
+        - Interviewee: Kennedy Chugg
         - September 24, 2022
-        - Planner app users - 
+        - Planner app users - Work, personal
 
         - Key Insights:
+        		- Using the apps that are the simplest and easiest to use make it easier to try new apps
+        		- Clean UI design
+        		- Link tasks like contents of an email to a to do list
+        		- Simple and easy way of marking task done
+        		- Low learning curve
+        		- Integration with Google Calander
+        		- Different accounts in one app
 
         - Representative Quotes:
-
+			- “I'm more likely to use it if it's built to be all in one”
+			
         - Assessment:
+        		- A system that can be as simple as possible with friendly and easy UI is a must
+        		- Being able to sync with Google Calander or email would be very helpful and boot usefulness
+        		
 
 Interview 7:
 
-        - Interviewer: 
-        - Interviewee:
+        - Interviewer: Payton Cox
+        - Interviewee: Isabella Moe
         - September 24, 2022
-        - Planner app users -
+        - Planner app users - School, Personal
 
-        - Key Insights:
+        - Key Insights: 
+        		- Uses apple apps becuase they're the easiest
+        		- Accessible
+        		- Syncs to apple devices
+        		- Color-coded events for calander
+        		- All in one would make user feel more productive
+        		- See eveything for a specific day in one spot
+        		- Doesn't want to learn a brand new system
 
         - Representative Quotes:
+        		- “I don’t want to learn how to use Google’s apps”
 
         - Assessment:
-
+			- It would be hard for users who like what they use now to switch
+			- Adding more customization for calander events would be very nice
+			- Connect to apple calander so user's other apple devices still have calander events 
 Interview 8:
 
         - Interviewer:
