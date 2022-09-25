@@ -35,7 +35,7 @@ Interview 1:
 Interview 2:
 
         - Interviewer: John Cardeccia
-        - Interviewee Jake Page
+        - Interviewee: Jake Page
         - September 24, 2022
         - Planner app users: Business, Personal
 
@@ -57,16 +57,27 @@ Interview 2:
 
 Interview 3:
 
-        - Interviewer:
-        - Interviewee: 
+        - Interviewer: Erick Salazar
+        - Interviewee: Aidan Madden-Watson
         - September 24, 2022
-        - Planner app users - 
+        - Planner app users: Personal 
 
         - Key Insights:
+			- Having sharing capabilities between people.
+			- Having some sort of positive reinforcement (encouraging the user)
+			- Easily setting items as repeatable
+			- Being able to plan under specific time frames (down to the minute)
+			- Have a way to show the user the weather in the calendar
+			- Have reminders/alerts for items
+			- Display extensive color coding for items
+			- Ability to create checklists.
 
         - Representative Quotes:
+			- “Having a sense of encouragement from the app would make it use it more worthwhile "
+			- "because the positive reinforcement would give the user a reason to keep coming back.”
 
         - Assessment:
+			- The positive reinforcements, reminders/alerts, and checklist capabilities are a must.
 
 Interview 4:
 
