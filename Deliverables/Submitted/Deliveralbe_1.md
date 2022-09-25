@@ -166,16 +166,25 @@ Interview 7:
 			- Connect to apple calander so user's other apple devices still have calander events 
 Interview 8:
 
-        - Interviewer:
-        - Interviewee:
+        - Interviewer: Adriel Perez
+        - Interviewee: Hannah Ñuñez
         - September 24, 2022
-        - Planner app users -
+        - Planner app users - Personal, School
 
         - Key Insights:
-
+			- App should be user friendly
+			- App should have simplistic settings (not too complex)
+			- Syncs in between devices (PC and phones)
+			- Should keep user in check regarding mental well being
+			- Tasks should be color coded accoring to the user
+			- App should not remind me too much if I missed/didn't finish a task
+ 
         - Representative Quotes:
-
+			- "A planner app should be easy on the go and user friendly"
+			- "I would like a calendar app that checked on my wellbeing"	
         - Assessment:
+			- Users want a beginner friendly UI and system
+			- Synching in between phones and/or computers with accounts would aid in a better time management
 
 Interview 9:
 
