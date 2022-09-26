@@ -188,16 +188,48 @@ Interview 8:
 
 Interview 9:
 
-        - Interviewer:
-        - Interviewee:
-        - September 24, 2022
-        - Planner app users -
+        - Interviewer: Terrell Hayward
+        - Interviewee:Noah Barta
+        - September 23, 2022
+        - Planner app users - Personal, School
 
         - Key Insights:
+			- App should have easy interface and use
+			- Having ability to sync with desktop/ other devices
+			- Keep app simple do not overdue features
+			- Have ability to plan base off school schedule/ events.
 
         - Representative Quotes:
+			- “Shortcuts might be a good idea. Instead of typing the 	 full tasks we can do a shortcut on what is to be inputed then allow the user to input a small description.” 
+			- "Keep the calander interface clean and cut, so it is easy to navigate"
 
         - Assessment:
+			- Would like to have the calander be user friendly when writing out plans.
+			- Make it simple to write a decription of event that user puts in. 
+
+Interview 10:
+
+        - Interviewer: Terrell Hayward
+        - Interviewee: Anyssa Villalobos
+        - September 23, 2022
+        - Planner app users - Personal, Work, School
+
+        - Key Insights:
+			- User would like app to involve with more day to day activities.
+			- Make sure alerts are on time and viable
+			- Have the ablity to plan and include calander all in one.
+			- Being able to make tasks priortitized
+
+        - Representative Quotes:
+			- “Utilize a calendar with the planner, so this way it is easier to set these reminders to corresponding
+			due dates, as well as events etc…” 
+			- "Being able to be useful outside of school, ultilize the clock to set remiders for daily activities. "
+
+        - Assessment:
+			- Incorportate the ability to modify tasks and set the reminders, as how many times reminded. 
+			- Be able to connect with outside of work and school, use for personal use as well, such as setting a weekly schedule.  
+
+
 
 FINALIZED VALUE PROPOSITION/CONSUMER SEGMENTS
 =============================================
