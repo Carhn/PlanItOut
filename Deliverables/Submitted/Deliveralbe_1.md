@@ -200,7 +200,7 @@ Interview 9:
 			- Have ability to plan base off school schedule/ events.
 
         - Representative Quotes:
-			- “Shortcuts might be a good idea. Instead of typing the 	 full tasks we can do a shortcut on what is to be inputed then allow the user to input a small description.” 
+			- “Shortcuts might be a good idea. Instead of typing the full tasks we can do a shortcut on what is to be inputed then allow the user to input a small description.” 
 			- "Keep the calander interface clean and cut, so it is easy to navigate"
 
         - Assessment:
@@ -233,3 +233,8 @@ Interview 10:
 
 FINALIZED VALUE PROPOSITION/CONSUMER SEGMENTS
 =============================================
+Plan It Out is an all-in-one calendar for users on mobile devices that allows users to better manage their time in a convenient app while also allowing the user to show off with the stylish user interface and allow for less stress about deadlines with alerts from the calendar.
+
+Customer Segment: Our most important customers are those who use calendars on their phone a lot, their archetypes could be anyone who uses a calendar 
+app on mobile for many different events, and it seems that the user wants us to make an application that is efficient and does not bog down the workflow 
+of the person using it while also not having the app be too difficult to use with a clean user interface for the users. 
