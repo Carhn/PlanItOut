@@ -6,19 +6,19 @@ POSITIONING
 
    1.1 PROBLEM STATEMENT
    ---------------------
-
+The problem of poor time management affects users of inefficient calendar apps, the impact of which is that the users of the apps stop using the app as a result of inconvenience, which leads to worse time management. 
 
 
 
    1.2 PRODUCT POSITION STATEMENT
    ==============================
-
+For users of inefficient calendar apps, who want to have a more efficient calendar app, PlanItOut is a calendar that allows for a condensed area where all planning activities can be done, unlike other calendars, such as Google calendar, our product will allow all planning activities do be done on the same screen and allow for easier access to certain options, such as alerts for calendar events. 
 
 
 
    1.3 VALUE PROPOSITION AND CUSTOMER SEGMENT
    ==========================================
-
+Value Proposition: PlanItOut is a calendar application that allows users of inefficient calendar apps to efficiently plan out all of their activities in one application, prioritizing the ease of use of the application for the user.  
 
 
 
@@ -167,32 +167,45 @@ USE CASES
 
    Use Case #3:
 
-               1. BRIEF DESCRIPTION:
+               1. BRIEF DESCRIPTION: Adding an alert. 
 
 
-               2. ACTOR BRIEF DESCRIPTIONS:
+               2. ACTOR BRIEF DESCRIPTIONS: User is a user of the PlanItOut application
 
 
-               3. PRECONDITIONS:
+               3. PRECONDITIONS: User has PlanItOut installed and has created an event on the calendar. 
  
 
                4. BASIC FLOW OF EVENTS:
+                  1.  User asks the system to find the event that they wish to add an alarm for. 
+                  2.  System finds the event and displays it to the user. 
+                  3.  User specifies when they wish to receive the alarm on the event. 
+                  4.  System saves the alarm on the event for the user.       
+                  5.  System shows the user that the alarm has been successfully saved on event.   
 
 
                5. ALTERNATIVE FLOWS:
+                  2a. System could not find the desired event for the user. 
+                  2b. User chooses another event to add an alarm to. 
+
+                  4a: System could not save the alarm successfully.
+                  4b. System shows the user that the alarm could not be saved. 
+                  4c. User attempts to input the alarm again. 
 
 
                6. SUBFLOWS:
+                  1. The user attempts to quit from adding an alarm at any point.
+                  2. The system closes the event and does not add an alarm. 
 
 
                7. KEY SCENARIOS:
-
+                  When the user wants to add an alarm. 
 
                8. POST-CONDITIONS
-
+                  The user has added an alarm to a certain event on their calendar. 
 
                9. SPECIAL REQUIREMENTS
-
+                   None. 
 
 
 
@@ -293,30 +306,63 @@ USER STORIES
 
    User Story #1: As a user, I want to color code items so that I can know at a glance if they're personal, work, business, etc... tasks.
    Priority:
-
+   Units of Time (Planning Poker):
+   
 
    User Story #2: As a user, I want to be able to mark a reminder as complete from the lock screen so I can manage reminders quicker.
    Priority:
+   Units of Time (Planning Poker):
+   
+
+   User Story #3: As a calendar user, I want easy access to the calendar of my company so that I know when company events are ahead of time. 
+   Priority: Should 
+   Units of Time (Planning Poker): 1 Hour
 
 
-   User Story #3:
-   Priority:
-
-
-   User Story #4:
-   Priority:
-
+   User Story #4: As a calendar manager, I want an easy way to add events to the calendar of my company so that employees can know about events ahead of time.  
+   Priority: Should
+   Units of Time (Planning Poker): 2 Hours
+   
 
    User Story #5:
    Priority:
-
+   Units of Time (Planning Poker):
+   
 
    User Story #6:
    Priority:
+   Units of Time (Planning Poker):
+   
 
+   User Story #7:
+   Priority:
+   Units of Time (Planning Poker):
+   
 
+   User Story #8:
+   Priority:
+   Units of Time (Planning Poker):
+   
 
+   User Story #9:
+   Priority:
+   Units of Time (Planning Poker):
+   
 
+   User Story #10:
+   Priority:
+   Units of Time (Planning Poker):
+   
+
+   User Story #11:
+   Priority:
+   Units of Time (Planning Poker):
+   
+
+   User Story #12:
+   Priority:
+   Units of Time (Planning Poker):
+   
 
 ISSUE TRACKER
 =============
