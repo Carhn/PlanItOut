@@ -25,6 +25,15 @@ POSITIONING
 STAKEHOLDERS
 ============
 
+**Developers** – The developers are the members of group 8. There responsibilities are to research
+ what users what from a planner app and to implement those features. 
+
+**Users** -  Users will be individuals who are looking for an app where they can have a calendar,
+ planner, and reminders all in one app. 
+
+**Competitors** – Competitors are the other planner apps that exist currently. Mainly apple and 
+google apps that are pre-installed onto many phones. There must be a value in our app that can draw
+ others from the competitors
 
 
 
@@ -125,34 +134,35 @@ USE CASES
 
 
    Use Case #2:
-
-               1. BRIEF DESCRIPTION:
-
-
-               2. ACTOR BRIEF DESCRIPTIONS:
+    1. BRIEF DESCRIPTION: User can share their calander with a coworker
 
 
-               3. PRECONDITIONS:
+               2. ACTOR BRIEF DESCRIPTIONS: Application user
+
+
+               3. PRECONDITIONS: User has access to PlanItOut and has created at least one calander event
  
 
-               4. BASIC FLOW OF EVENTS:
+               4. BASIC FLOW OF EVENTS: 1. User taps on the share icon in the app
+                                        2. User enters the username of the person they want to share calanders with
+                                        3. User hits send calander button
+
+               5. ALTERNATIVE FLOWS: 1. User selects a specific event in their calander
+                                     2. User selects share button inside the calander event window
+                                     3. User enters the username of who they want to share the event
+                                     4. User its send event button
+
+               6. SUBFLOWS: 1. The user taps on the share button
+                            2. a pop up window prompts for user input of a username
+               
+
+               7. KEY SCENARIOS: 1. When a user would like another user to see their calander or a specific event
 
 
-               5. ALTERNATIVE FLOWS:
+               8. POST-CONDITIONS: The cooworker or individual can accept the new calander and view it
 
-
-               6. SUBFLOWS:
-
-
-               7. KEY SCENARIOS:
-
-
-               8. POST-CONDITIONS
-
-
-               9. SPECIAL REQUIREMENTS
-
-
+               9. SPECIAL REQUIREMENTS: NONE
+![Use Case 2 sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Use_case_2.png "Use Case 2 sketch")
 
 
    Use Case #3:
@@ -285,7 +295,7 @@ USER STORIES
    Priority:
 
 
-   User Story #2:
+   User Story #2: As a user, I want to be able to mark a reminder as complete from the lock screen so I can manage reminders quicker.
    Priority:
 
 
