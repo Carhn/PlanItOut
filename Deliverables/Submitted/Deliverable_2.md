@@ -209,8 +209,6 @@ USE CASES
                    
 ![Use Case 3 sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Phone%20Sketch.png "Use Case 3 sketch")
 
-https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Phone%20Sketch.png
-
    Use Case #4
 
                1. BRIEF DESCRIPTION:
