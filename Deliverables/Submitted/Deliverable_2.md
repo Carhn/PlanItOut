@@ -120,7 +120,7 @@ USE CASES
                9. SPECIAL REQUIREMENTS: None.
 
 
-               ![Use Case 1 sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/sketch_john.png "Use Case 1 Sketch")
+![Use Case 1 sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/sketch_john.png "Use Case 1 Sketch")
 
 
    Use Case #2:
