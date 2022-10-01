@@ -65,6 +65,7 @@ USE CASES
    ----------------------------------------------
 
    Use Case #1:
+
                1. BRIEF DESCRIPTION: The user can add a task to the calendar for a specific date.
 
 
@@ -124,6 +125,7 @@ USE CASES
 
 
    Use Case #2:
+
                1. BRIEF DESCRIPTION:
 
 
@@ -154,6 +156,7 @@ USE CASES
 
 
    Use Case #3:
+
                1. BRIEF DESCRIPTION:
 
 
@@ -184,6 +187,7 @@ USE CASES
 
 
    Use Case #4
+
                1. BRIEF DESCRIPTION:
 
 
@@ -214,6 +218,7 @@ USE CASES
 
 
    Use Case #5
+
                1. BRIEF DESCRIPTION:
 
 
@@ -244,6 +249,7 @@ USE CASES
 
 
    Use Case #6
+
                1. BRIEF DESCRIPTION:
 
 
