@@ -304,64 +304,64 @@ USE CASES
 USER STORIES
 ============
 
-   User Story #1: As a user, I want to color code items so that I can know at a glance if they're personal, work, business, etc... tasks.
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #1: As a user, I want to color code items so that I can know at a glance if they're personal, work, business, etc... tasks.
+   - Priority: Should
+   - Units of Time (Planning Poker): 2 Hours
    
 
-   User Story #2: As a user, I want to be able to mark a reminder as complete from the lock screen so I can manage reminders quicker.
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #2: As a user, I want to be able to mark a reminder as complete from the lock screen so I can manage reminders quicker.
+   - Priority:
+   - Units of Time (Planning Poker):
    
 
-   User Story #3: As a calendar user, I want easy access to the calendar of my company so that I know when company events are ahead of time. 
-   Priority: Should 
-   Units of Time (Planning Poker): 1 Hour
+   - User Story #3: As a calendar user, I want easy access to the calendar of my company so that I know when company events are ahead of time. 
+   - Priority: Should 
+   - Units of Time (Planning Poker): 1 Hours
 
 
-   User Story #4: As a calendar manager, I want an easy way to add events to the calendar of my company so that employees can know about events ahead of time.  
-   Priority: Should
-   Units of Time (Planning Poker): 2 Hours
+   - User Story #4: As a calendar manager, I want an easy way to add events to the calendar of my company so that employees can know about events ahead of time.  
+   - Priority: Should
+   - Units of Time (Planning Poker): 2 Hours
    
 
-   User Story #5:
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #5: As a calendar user, I want to be able to search my events for a keyword so that I can easily find an old item.
+   - Priority: Could
+   - Units of Time (Planning Poker): 3 Hours
    
 
-   User Story #6:
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #6:
+   - Priority:
+   - Units of Time (Planning Poker):
    
 
-   User Story #7:
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #7:
+   - Priority:
+   - Units of Time (Planning Poker):
    
 
-   User Story #8:
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #8:
+   - Priority:
+   - Units of Time (Planning Poker):
    
 
-   User Story #9:
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #9:
+   - Priority:
+   - Units of Time (Planning Poker):
    
 
-   User Story #10:
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #10:
+   - Priority:
+   - Units of Time (Planning Poker):
    
 
-   User Story #11:
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #11:
+   - Priority:
+   - Units of Time (Planning Poker):
    
 
-   User Story #12:
-   Priority:
-   Units of Time (Planning Poker):
+   - User Story #12:
+   - Priority:
+   - Units of Time (Planning Poker):
    
 
 ISSUE TRACKER
