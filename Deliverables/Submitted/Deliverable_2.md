@@ -271,7 +271,7 @@ USE CASES
 
 
                5. ALTERNATIVE FLOWS:
-https://github.com/Carhn/PlanItOut/tree/Dev/Deliverables/Deliverable_Images/UserCase4.drawio.png "Use Case 4"
+
 
                6. SUBFLOWS:
 
