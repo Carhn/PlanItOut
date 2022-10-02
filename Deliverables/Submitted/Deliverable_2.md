@@ -58,7 +58,11 @@ NON-FUNCTIONAL REQUIREMENTS
 
 MVP
 ===
+   1. The feature we plan on implementing early on the development of the app is the simple UI that will display a calendar and the ability to customize tasks in the calendar, such as adding checklists.
+   
+   2. As we build our app we will keep in mind user-friendliness, therefore, we are trying to keep any sort of interaction between the user and the app, as simple as possible.
 
+   3. After revising all the data collected from the interviews, the most requested feature were to have an alert/reminder system that could use predetermined time intervals to activate. Another feature that many interviewees said they'd find useful is some sort of positive reinforcement that would encourage the user after completing marked tasks on the calendar. In order to deal with these two implementations we are planning on having an alarm system that will be linked to the alert/reminder system, the alarm can be activated between two time intervals and will send the alert once the interval is over. To implement the positive reinforcement system, we will create a list of positive messages that will be displayed whenever the user completes a task they've added to their calendar.
 
 
 
@@ -310,8 +314,8 @@ USER STORIES
    
 
    - User Story #2: As a user, I want to be able to mark a reminder as complete from the lock screen so I can manage reminders quicker.
-   - Priority:
-   - Units of Time (Planning Poker):
+   - Priority: Should
+   - Units of Time (Planning Poker): 2 Hours 
    
 
    - User Story #3: As a calendar user, I want easy access to the calendar of my company so that I know when company events are ahead of time. 
@@ -329,14 +333,14 @@ USER STORIES
    - Units of Time (Planning Poker): 3 Hours
    
 
-   - User Story #6:
-   - Priority:
-   - Units of Time (Planning Poker):
+   - User Story #6: As a user, I want to be able to be encouraged by the app so I can feel like I'm being productive.
+   - Priority: Could
+   - Units of Time (Planning Poker): 2 Hours
    
 
-   - User Story #7:
-   - Priority:
-   - Units of Time (Planning Poker):
+   - User Story #7: As a user, I want to be reminded of upcoming due dates so I can stay on top of things.
+   - Priority: Should
+   - Units of Time (Planning Poker): 2 Hours
    
 
    - User Story #8:
