@@ -253,7 +253,7 @@ USE CASES
                9. SPECIAL REQUIREMENTS
 		  None.
 
-![Use Case 4 Sketch](https://github.com/Carhn/PlanItOut/tree/Dev/Deliverables/Deliverable_Images/UserCase4.drawio.png)
+![Use Case 4](https://github.com/Carhn/PlanItOut/tree/Dev/Deliverables/Deliverable_Images/UserCase4.drawio.png "Use Case 4")
 
 
    Use Case #5
