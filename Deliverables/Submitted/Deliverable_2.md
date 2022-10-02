@@ -253,7 +253,7 @@ USE CASES
                9. SPECIAL REQUIREMENTS
 		  None.
 
-![Use Case 4](https://github.com/Carhn/PlanItOut/tree/Dev/Deliverables/Deliverable_Images/UserCase4.drawio.png "Use Case 4")
+![Use Case 4 sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UseCase4.png "Use Case 4 sketch")
 
 
    Use Case #5
@@ -271,7 +271,7 @@ USE CASES
 
 
                5. ALTERNATIVE FLOWS:
-
+https://github.com/Carhn/PlanItOut/tree/Dev/Deliverables/Deliverable_Images/UserCase4.drawio.png "Use Case 4"
 
                6. SUBFLOWS:
 
