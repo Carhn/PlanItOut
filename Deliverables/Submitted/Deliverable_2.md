@@ -20,7 +20,7 @@ For users of inefficient calendar apps, who want to have a more efficient calend
    ==========================================
 Value Proposition: PlanItOut is a calendar application that allows users of inefficient calendar apps to efficiently plan out all of their activities in one application, prioritizing the ease of use of the application for the user.  
 
-
+Customer Segment: Users of inefficient calendar apps who want a more efficient calendar application. 
 
 STAKEHOLDERS
 ============
