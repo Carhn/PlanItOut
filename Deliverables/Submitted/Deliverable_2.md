@@ -215,33 +215,45 @@ USE CASES
 
    Use Case #4
 
-               1. BRIEF DESCRIPTION:
+               1. BRIEF DESCRIPTION: Displaying a positive message after the user completes a task.
 
 
-               2. ACTOR BRIEF DESCRIPTIONS:
+               2. ACTOR BRIEF DESCRIPTIONS: User uses PlanItOut app and has completed an item in their checklist.
 
 
-               3. PRECONDITIONS:
+               3. PRECONDITIONS: User has PlanItOut installed and has created a checklist.
  
 
                4. BASIC FLOW OF EVENTS:
+		  1. User adds a checklist to a specific day on the calendar.
+		  2. User complete the task.
+		  3. User checks off task from checklist.
+		  4. App recognizes item checked off.
+		  5. App displays positive message to screen.
+
 
 
                5. ALTERNATIVE FLOWS:
-
+		  1. User completes several checklist items at once
+		  2. App recognizes all checks off.
+		  3. App displays positive message to screen.
 
                6. SUBFLOWS:
+		  1. User checks or unchecks a task.
 
 
-               7. KEY SCENARIOS:
+               7. KEY SCENARIOS: 
+		  The user comleted a task and wants to check off one of the items on the list.
 
 
-               8. POST-CONDITIONS
+               8. POST-CONDITIONS: 
+		  User has checked off an item on the checklist.
 
 
                9. SPECIAL REQUIREMENTS
+		  None.
 
-
+![Use Case 4 Sketch](https://github.com/Carhn/PlanItOut/tree/Dev/Deliverables/Deliverable_Images/UserCase4.drawio.png "Use Case 4 Sketch")
 
 
    Use Case #5
