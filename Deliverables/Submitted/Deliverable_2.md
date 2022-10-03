@@ -308,31 +308,45 @@ USE CASES
 
    Use Case #6
 
-               1. BRIEF DESCRIPTION:
+               1. BRIEF DESCRIPTION: User can add color too specific reminders to keep organized
 
 
-               2. ACTOR BRIEF DESCRIPTIONS:
+               2. ACTOR BRIEF DESCRIPTIONS: User is using PlanItOut app and has at least one reminder
 
 
-               3. PRECONDITIONS:
+               3. PRECONDITIONS: User has PlanItOut app installed and at least one reminder set
  
 
                4. BASIC FLOW OF EVENTS:
+                  1. User selects set reminder they would like to color
+                  2. User then selects the color they would like to set to reminder
+                  3. System confirms if user would like to set color to reminder
+                  4. System saves color to specific reminder
 
 
                5. ALTERNATIVE FLOWS:
+                  1a. User it asked when reminder is created to set a color to it
+                  2a. User can select from preset colors giving them options
+                  3a. User declines color and selects preferred color. 
+                  4a. User is asked from system if they prefer color or not. 
 
 
                6. SUBFLOWS:
+               1. User is asked if color would be prefered for set reiminders
 
 
                7. KEY SCENARIOS:
+               1. Reminders can be grouped based on color
 
 
                8. POST-CONDITIONS
+               1. User is able to organize reminder based on their use, color will group them together for the user to view
 
 
                9. SPECIAL REQUIREMENTS
+               NONE
+
+![Use Case 6 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UseCase6.png "Use Case 6 Sketch")
 
 
 
@@ -373,7 +387,7 @@ USER STORIES
    - Priority: Should
    - Units of Time (Planning Poker): 2 Hours
  
- 
+
    8. User Story #8: As a user, I want to see all my tasks and events for one day on a single screen so I know what to expect and plan for
    - Priority: could
    - Units of Time (Planning Poker): 3 hours
