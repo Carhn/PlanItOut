@@ -392,7 +392,6 @@ USER STORIES
    9. User Story #9:  As a user, I want to be able to set some of my reminders to repeatable so I do not rewrite my reminders over and over.
    - Priority: Should
    - Units of Time (Planning Poker): 2 Hours 
->>>>>>> e0c3da3384a1f32d59cd7db9bf92372b66956ae6
    
 
    10. User Story #10: As a user, I want my app to have an easy to understand dynamic so that I feel productive
