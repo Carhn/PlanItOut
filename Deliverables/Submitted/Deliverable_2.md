@@ -20,7 +20,7 @@ For users of inefficient calendar apps, who want to have a more efficient calend
    ==========================================
 Value Proposition: PlanItOut is a calendar application that allows users of inefficient calendar apps to efficiently plan out all of their activities in one application, prioritizing the ease of use of the application for the user.  
 
-
+Customer Segment: Users of inefficient calendar apps who want a more efficient calendar application. 
 
 STAKEHOLDERS
 ============
@@ -39,7 +39,17 @@ google apps that are pre-installed onto many phones. There must be a value in ou
 
 FUNCTIONAL REQUIREMENTS
 =======================
+   1. User Interface: app should be fairly easy to navigate
+   
+   2. Reminders: app should allow user to add alarms/reminders at specified time and date
+   
+   3. Settings: should be simple to understand and change
+   
+   4. Color-coding: reminders should be able to be organized by colors
 
+   5. Importance: allow user to select the importance of each reminder
+
+   6. Repeatability: if user desires, reminders should be able to be set to repeatable
 
 
 
@@ -58,7 +68,11 @@ NON-FUNCTIONAL REQUIREMENTS
 
 MVP
 ===
+   1. The feature we plan on implementing early on the development of the app is the simple UI that will display a calendar and the ability to customize tasks in the calendar, such as adding checklists.
+   
+   2. As we build our app we will keep in mind user-friendliness, therefore, we are trying to keep any sort of interaction between the user and the app, as simple as possible.
 
+   3. After revising all the data collected from the interviews, the most requested feature were to have an alert/reminder system that could use predetermined time intervals to activate. Another feature that many interviewees said they'd find useful is some sort of positive reinforcement that would encourage the user after completing marked tasks on the calendar. In order to deal with these two implementations we are planning on having an alarm system that will be linked to the alert/reminder system, the alarm can be activated between two time intervals and will send the alert once the interval is over. To implement the positive reinforcement system, we will create a list of positive messages that will be displayed whenever the user completes a task they've added to their calendar.
 
 
 
@@ -211,65 +225,89 @@ USE CASES
 
    Use Case #4
 
-               1. BRIEF DESCRIPTION:
+               1. BRIEF DESCRIPTION: Displaying a positive message after the user completes a task.
 
 
-               2. ACTOR BRIEF DESCRIPTIONS:
+               2. ACTOR BRIEF DESCRIPTIONS: User uses PlanItOut app and has completed an item in their checklist.
 
 
-               3. PRECONDITIONS:
+               3. PRECONDITIONS: User has PlanItOut installed and has created a checklist.
  
 
                4. BASIC FLOW OF EVENTS:
+		  1. User adds a checklist to a specific day on the calendar.
+		  2. User complete the task.
+		  3. User checks off task from checklist.
+		  4. App recognizes item checked off.
+		  5. App displays positive message to screen.
+
 
 
                5. ALTERNATIVE FLOWS:
-
+		  1. User completes several checklist items at once
+		  2. App recognizes all checks off.
+		  3. App displays positive message to screen.
 
                6. SUBFLOWS:
+		  1. User checks or unchecks a task.
 
 
-               7. KEY SCENARIOS:
+               7. KEY SCENARIOS: 
+		  The user comleted a task and wants to check off one of the items on the list.
 
 
-               8. POST-CONDITIONS
+               8. POST-CONDITIONS: 
+		  User has checked off an item on the checklist.
 
 
                9. SPECIAL REQUIREMENTS
+		  None.
 
-
+![Use Case 4 sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UseCase4.png "Use Case 4 sketch")
 
 
    Use Case #5
 
-               1. BRIEF DESCRIPTION:
+               1. BRIEF DESCRIPTION: User can set an alarm to repeatable
 
 
-               2. ACTOR BRIEF DESCRIPTIONS:
+               2. ACTOR BRIEF DESCRIPTIONS: User is using the PlanItOut app and has at least one alarm active
 
 
-               3. PRECONDITIONS:
+               3. PRECONDITIONS: User has PlanItOut app installed and has at least one alarm to set to repeat
  
 
-               4. BASIC FLOW OF EVENTS:
-
+               4. BASIC FLOW OF EVENTS: 
+	       			1. User taps on the alarm they want to set to repeat
+				2. User selects when alarm should repeat itself and how frequently
+				3. System confirms with user if the data provided is accurate
+				4. System saves data given
 
                5. ALTERNATIVE FLOWS:
+<<<<<<< HEAD
+				1.a User creates a new alarm and is presented with the repeat function for the new alarm
+				2.a User selects multiple alarms to set to repeat
+				3.a User declines that data was not correct
+				3.b User is reprompted to enter data
+=======
 
+>>>>>>> 6cccb2d297b4b0736d500fa8db92de584ac7d638
 
                6. SUBFLOWS:
-
+				1. User cancels the selection of the repeat function
+				2. User is prompted to enter when and where alarm should trigger
 
                7. KEY SCENARIOS:
-
-
+				1. Alarm was set to repeat		
+		
                8. POST-CONDITIONS
+				1. User is able to select which alarms are to be set to repeating and details meet user's needs
 
 
                9. SPECIAL REQUIREMENTS
+				None
 
-
-
+![Use Case 5 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UseCase5.drawio "Use Case 5 Sketch")  
 
    Use Case #6
 
@@ -304,62 +342,62 @@ USE CASES
 USER STORIES
 ============
 
-   - User Story #1: As a user, I want to color code items so that I can know at a glance if they're personal, work, business, etc... tasks.
+   1. User Story #1: As a user, I want to color code items so that I can know at a glance if they're personal, work, business, etc... tasks.
    - Priority: Should
    - Units of Time (Planning Poker): 2 Hours
    
 
-   - User Story #2: As a user, I want to be able to mark a reminder as complete from the lock screen so I can manage reminders quicker.
-   - Priority:
-   - Units of Time (Planning Poker):
+   2. User Story #2: As a user, I want to be able to mark a reminder as complete from the lock screen so I can manage reminders quicker.
+   - Priority: Should
+   - Units of Time (Planning Poker): 2 Hours 
    
 
-   - User Story #3: As a calendar user, I want easy access to the calendar of my company so that I know when company events are ahead of time. 
+   3. User Story #3: As a calendar user, I want easy access to the calendar of my company so that I know when company events are ahead of time. 
    - Priority: Should 
    - Units of Time (Planning Poker): 1 Hours
 
 
-   - User Story #4: As a calendar manager, I want an easy way to add events to the calendar of my company so that employees can know about events ahead of time.  
+   4. User Story #4: As a calendar manager, I want an easy way to add events to the calendar of my company so that employees can know about events ahead of time.  
    - Priority: Should
    - Units of Time (Planning Poker): 2 Hours
    
 
-   - User Story #5: As a calendar user, I want to be able to search my events for a keyword so that I can easily find an old item.
+   5. User Story #5: As a calendar user, I want to be able to search my events for a keyword so that I can easily find an old item.
    - Priority: Could
    - Units of Time (Planning Poker): 3 Hours
    
 
-   - User Story #6:
+   6. User Story #6: As a user, I want to be able to be encouraged by the app so I can feel like I'm being productive.
+   - Priority: Could
+   - Units of Time (Planning Poker): 2 Hours
+   
+
+   7. User Story #7: As a user, I want to be reminded of upcoming due dates so I can stay on top of things.
+   - Priority: Should
+   - Units of Time (Planning Poker): 2 Hours
+   
+
+   8. User Story #8: As a user, I want to see all my tasks and events for one day on a single screen so I know what to expect and plan for
+   - Priority: could
+   - Units of Time (Planning Poker): 3 hours
+   
+
+   9. User Story #9:  As a user, I want to be able to set some of my reminders to repeatable so I do not rewrite my reminders over and over.
+   - Priority: Should
+   - Units of Time (Planning Poker): 2 Hours 
+   
+
+   10. User Story #10: As a user, I want my app to have an easy to understand dynamic so that I feel productive
+   - Priority: Should
+   - Units of Time (Planning Poker): 3 Hours
+   
+
+   11. User Story #11:
    - Priority:
    - Units of Time (Planning Poker):
    
 
-   - User Story #7:
-   - Priority:
-   - Units of Time (Planning Poker):
-   
-
-   - User Story #8:
-   - Priority:
-   - Units of Time (Planning Poker):
-   
-
-   - User Story #9:
-   - Priority:
-   - Units of Time (Planning Poker):
-   
-
-   - User Story #10:
-   - Priority:
-   - Units of Time (Planning Poker):
-   
-
-   - User Story #11:
-   - Priority:
-   - Units of Time (Planning Poker):
-   
-
-   - User Story #12:
+   12. User Story #12:
    - Priority:
    - Units of Time (Planning Poker):
    
