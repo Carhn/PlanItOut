@@ -43,6 +43,8 @@ FUNCTIONAL REQUIREMENTS
 
 
 
+
+
 NON-FUNCTIONAL REQUIREMENTS
 ===========================
 
@@ -71,8 +73,7 @@ USE CASES
 
    6.1 USE CASE DIAGRAM
    --------------------
-
-
+![Use Case Diagram](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UMLDiagram.png "Use Case UML Diagram")
 
    6.2 USE CASE DESCRIPTIONS AND INTERFACE SKETCH
    ----------------------------------------------
@@ -355,14 +356,14 @@ USER STORIES
    - Units of Time (Planning Poker): 2 Hours
    
 
-   8. User Story #8:
-   - Priority:
-   - Units of Time (Planning Poker):
+   8. User Story #8: 
+   - Priority: 
+   - Units of Time (Planning Poker): 
    
 
-   9. User Story #9:
-   - Priority:
-   - Units of Time (Planning Poker):
+   9. User Story #9: 
+   - Priority: 
+   - Units of Time (Planning Poker): 
    
 
    10. User Story #10:
@@ -370,14 +371,14 @@ USER STORIES
    - Units of Time (Planning Poker):
    
 
-   11. User Story #11:
-   - Priority:
-   - Units of Time (Planning Poker):
+   11. User Story #11: As a user, I want to have a set schedule for the week so that I can update my schedule as desired. 
+   - Priority: Could
+   - Units of Time (Planning Poker): 2 hours
    
 
-   12. User Story #12:
-   - Priority:
-   - Units of Time (Planning Poker):
+   12. User Story #12: As a user, I would like to write a short description for events I put into app so that I have details for what my reminders are set for.
+   - Priority: Could
+   - Units of Time (Planning Poker): 2 hours
    
 
 ISSUE TRACKER
