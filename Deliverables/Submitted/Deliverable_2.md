@@ -53,6 +53,8 @@ FUNCTIONAL REQUIREMENTS
 
 
 
+
+
 NON-FUNCTIONAL REQUIREMENTS
 ===========================
 
@@ -81,8 +83,7 @@ USE CASES
 
    6.1 USE CASE DIAGRAM
    --------------------
-
-
+![Use Case Diagram](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UMLDiagram.png "Use Case UML Diagram")
 
    6.2 USE CASE DESCRIPTIONS AND INTERFACE SKETCH
    ----------------------------------------------
@@ -284,14 +285,10 @@ USE CASES
 				4. System saves data given
 
                5. ALTERNATIVE FLOWS:
-<<<<<<< HEAD
 				1.a User creates a new alarm and is presented with the repeat function for the new alarm
 				2.a User selects multiple alarms to set to repeat
 				3.a User declines that data was not correct
 				3.b User is reprompted to enter data
-=======
-
->>>>>>> 6cccb2d297b4b0736d500fa8db92de584ac7d638
 
                6. SUBFLOWS:
 				1. User cancels the selection of the repeat function
@@ -307,7 +304,7 @@ USE CASES
                9. SPECIAL REQUIREMENTS
 				None
 
-![Use Case 5 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UseCase5.drawio "Use Case 5 Sketch")  
+![Use Case 5 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UserCase5.png "Use Case 5 Sketch")  
 
    Use Case #6
 
@@ -375,8 +372,8 @@ USER STORIES
    7. User Story #7: As a user, I want to be reminded of upcoming due dates so I can stay on top of things.
    - Priority: Should
    - Units of Time (Planning Poker): 2 Hours
-   
-
+ 
+ 
    8. User Story #8: As a user, I want to see all my tasks and events for one day on a single screen so I know what to expect and plan for
    - Priority: could
    - Units of Time (Planning Poker): 3 hours
@@ -392,14 +389,14 @@ USER STORIES
    - Units of Time (Planning Poker): 3 Hours
    
 
-   11. User Story #11:
-   - Priority:
-   - Units of Time (Planning Poker):
+   11. User Story #11: As a user, I want to have a set schedule for the week so that I can update my schedule as desired. 
+   - Priority: Could
+   - Units of Time (Planning Poker): 2 hours
    
 
-   12. User Story #12:
-   - Priority:
-   - Units of Time (Planning Poker):
+   12. User Story #12: As a user, I would like to write a short description for events I put into app so that I have details for what my reminders are set for.
+   - Priority: Could
+   - Units of Time (Planning Poker): 2 hours
    
 
 ISSUE TRACKER
