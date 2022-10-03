@@ -355,9 +355,9 @@ USER STORIES
    - Units of Time (Planning Poker): 2 Hours
    
 
-   8. User Story #8:
-   - Priority:
-   - Units of Time (Planning Poker):
+   8. User Story #8: As a user, I want to see all my tasks and events for one day on a single screen so I know what to expect and plan for
+   - Priority: could
+   - Units of Time (Planning Poker): 3 hours
    
 
    9. User Story #9:
