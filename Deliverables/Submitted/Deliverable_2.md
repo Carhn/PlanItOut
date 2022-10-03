@@ -366,3 +366,21 @@ USER STORIES
 
 ISSUE TRACKER
 =============
+
+Issue #1 https://github.com/Carhn/PlanItOut/issues/6
+
+Issue #2 https://github.com/Carhn/PlanItOut/issues/7
+
+Issue #3 https://github.com/Carhn/PlanItOut/issues/8
+
+Issue #4 https://github.com/Carhn/PlanItOut/issues/9
+
+Issue #5 https://github.com/Carhn/PlanItOut/issues/10
+
+Issue #6 https://github.com/Carhn/PlanItOut/issues/11
+
+Issue #7 https://github.com/Carhn/PlanItOut/issues/12
+
+Issue #8 https://github.com/Carhn/PlanItOut/issues/13
+
+Issue #9 
