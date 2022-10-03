@@ -39,7 +39,17 @@ google apps that are pre-installed onto many phones. There must be a value in ou
 
 FUNCTIONAL REQUIREMENTS
 =======================
+   1. User Interface: app should be fairly easy to navigate
+   
+   2. Reminders: app should allow user to add alarms/reminders at specified time and date
+   
+   3. Settings: should be simple to understand and change
+   
+   4. Color-coding: reminders should be able to be organized by colors
 
+   5. Importance: allow user to select the importance of each reminder
+
+   6. Repeatability: if user desires, reminders should be able to be set to repeatable
 
 
 
@@ -258,34 +268,42 @@ USE CASES
 
    Use Case #5
 
-               1. BRIEF DESCRIPTION:
+               1. BRIEF DESCRIPTION: User can set an alarm to repeatable
 
 
-               2. ACTOR BRIEF DESCRIPTIONS:
+               2. ACTOR BRIEF DESCRIPTIONS: User is using the PlanItOut app and has at least one alarm active
 
 
-               3. PRECONDITIONS:
+               3. PRECONDITIONS: User has PlanItOut app installed and has at least one alarm to set to repeat
  
 
-               4. BASIC FLOW OF EVENTS:
-
+               4. BASIC FLOW OF EVENTS: 
+	       			1. User taps on the alarm they want to set to repeat
+				2. User selects when alarm should repeat itself and how frequently
+				3. System confirms with user if the data provided is accurate
+				4. System saves data given
 
                5. ALTERNATIVE FLOWS:
-https://github.com/Carhn/PlanItOut/tree/Dev/Deliverables/Deliverable_Images/UserCase4.drawio.png "Use Case 4"
+				1.a User creates a new alarm and is presented with the repeat function for the new alarm
+				2.a User selects multiple alarms to set to repeat
+				3.a User declines that data was not correct
+				3.b User is reprompted to enter data
 
                6. SUBFLOWS:
-
+				1. User cancels the selection of the repeat function
+				2. User is prompted to enter when and where alarm should trigger
 
                7. KEY SCENARIOS:
-
-
+				1. Alarm was set to repeat		
+		
                8. POST-CONDITIONS
+				1. User is able to select which alarms are to be set to repeating and details meet user's needs
 
 
                9. SPECIAL REQUIREMENTS
+				None
 
-
-
+![Use Case 5 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UseCase5.drawio "Use Case 5 Sketch")  
 
    Use Case #6
 
@@ -360,14 +378,14 @@ USER STORIES
    - Units of Time (Planning Poker):
    
 
-   9. User Story #9:
-   - Priority:
-   - Units of Time (Planning Poker):
+   9. User Story #9:  As a user, I want to be able to set some of my reminders to repeatable so I do not rewrite my reminders over and over.
+   - Priority: Should
+   - Units of Time (Planning Poker): 2 Hours 
    
 
-   10. User Story #10:
-   - Priority:
-   - Units of Time (Planning Poker):
+   10. User Story #10: As a user, I want my app to have an easy to understand dynamic so that I feel productive
+   - Priority: Should
+   - Units of Time (Planning Poker): 3 Hours
    
 
    11. User Story #11:
