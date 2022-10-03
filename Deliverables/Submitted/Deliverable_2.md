@@ -372,18 +372,8 @@ USER STORIES
    7. User Story #7: As a user, I want to be reminded of upcoming due dates so I can stay on top of things.
    - Priority: Should
    - Units of Time (Planning Poker): 2 Hours
-   
-
-<<<<<<< HEAD
-   8. User Story #8: 
-   - Priority: 
-   - Units of Time (Planning Poker): 
-   
-
-   9. User Story #9: 
-   - Priority: 
-   - Units of Time (Planning Poker): 
-=======
+ 
+ 
    8. User Story #8: As a user, I want to see all my tasks and events for one day on a single screen so I know what to expect and plan for
    - Priority: could
    - Units of Time (Planning Poker): 3 hours
