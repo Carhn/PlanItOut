@@ -284,10 +284,14 @@ USE CASES
 				4. System saves data given
 
                5. ALTERNATIVE FLOWS:
+<<<<<<< HEAD
 				1.a User creates a new alarm and is presented with the repeat function for the new alarm
 				2.a User selects multiple alarms to set to repeat
 				3.a User declines that data was not correct
 				3.b User is reprompted to enter data
+=======
+
+>>>>>>> 6cccb2d297b4b0736d500fa8db92de584ac7d638
 
                6. SUBFLOWS:
 				1. User cancels the selection of the repeat function
@@ -373,9 +377,9 @@ USER STORIES
    - Units of Time (Planning Poker): 2 Hours
    
 
-   8. User Story #8:
-   - Priority:
-   - Units of Time (Planning Poker):
+   8. User Story #8: As a user, I want to see all my tasks and events for one day on a single screen so I know what to expect and plan for
+   - Priority: could
+   - Units of Time (Planning Poker): 3 hours
    
 
    9. User Story #9:  As a user, I want to be able to set some of my reminders to repeatable so I do not rewrite my reminders over and over.
