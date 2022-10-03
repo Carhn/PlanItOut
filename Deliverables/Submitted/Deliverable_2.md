@@ -284,14 +284,10 @@ USE CASES
 				4. System saves data given
 
                5. ALTERNATIVE FLOWS:
-<<<<<<< HEAD
 				1.a User creates a new alarm and is presented with the repeat function for the new alarm
 				2.a User selects multiple alarms to set to repeat
 				3.a User declines that data was not correct
 				3.b User is reprompted to enter data
-=======
-
->>>>>>> 6cccb2d297b4b0736d500fa8db92de584ac7d638
 
                6. SUBFLOWS:
 				1. User cancels the selection of the repeat function
