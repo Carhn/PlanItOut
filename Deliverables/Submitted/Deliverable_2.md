@@ -101,38 +101,41 @@ USE CASES
 
                4. BASIC FLOW OF EVENTS:
                                        1. User opens the app.
-                                       2. User taps on the specfic date they are interested in.
-                                       3. A new menu opens up with fields for task name, comments, and reminder day/time(s)
-                                       4. The user enters information in the relevant fields.
+                                       2. User request the specific date they are interested in.
+                                       3. The system responds with places for task name, comments, and reminder day/time(s)
+                                       4. The user provides the information to the system.
+                                       5. The system wants confirmation from the user.
                                        5. The user confirms the entry.
 
                5. ALTERNATIVE FLOWS:
                                     A.
                                       1. The user opens the app.
-                                      2. The user scrolls to a different month.
-                                      3. User taps on the specfic date they are interested in.
-                                      4. A new menu opens up with fields for task name, comments, and reminder day/times(s)
-                                      5. The user enters information in the relevant fields.
-                                      6. The user confirms the entry.
+                                      2. The user requests a different month than is current from the system.
+				      3. The system responds with that month.
+                                      4. User selects the specfic date they are interested in.
+                                      5. The system responds with places for task name, comments, and reminder day/times(s)
+                                      6. The user provides the information to the system.
+                                      7. The system wants confirmation from the user.
+                                      8. The user confirms the entry.
 
                                     B.
                                        1. User opens the app.
-                                       2. User taps on the specfic date they are interested in.
-                                       3. A new menu opens up with fields for task name, comments, and reminder day/times(s)
-                                       4. The user enters information in the relevant fields.
-                                       5. The user cancels the entry.
-                                       6. The user receives a confirmation message.
-                                       7. The user confirms the confirmation message, and menu disappears without adding any information to calendar.
+                                       2. User requests the specific date they are interested in.
+                                       3. The system responds with places for  task name, comments, and reminder day/times(s)
+                                       4. The user leaves without providing the information to the system.
+                                       5. The system asks the user for confirmation.
+                                       6. The user confirms to the system that they want to leave.
+                                       7. No information is added to the system
 
                6. SUBFLOWS:
                                     A. 
-                                       1. User taps on the specfic date they are interested in.
-                                       2. A new menu opens up with fields for task name, comments, and reminder day/times(s)
+                                       1. User requests the specfic date they are interested in from the system.
+                                       2. The system responds with places for task name, comments, and reminder day/times(s)
 
 
                                     B.
-                                       1. The user enters information in the relevant fields.
-                                       2. The user confirms the entry.
+                                       1. The user provides the information to the system.
+                                       2. The system wnats confirmation from the user.
 
 
 
