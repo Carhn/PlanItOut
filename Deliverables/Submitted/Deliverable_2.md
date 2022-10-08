@@ -304,7 +304,7 @@ USE CASES
                9. SPECIAL REQUIREMENTS
 				None
 
-![Use Case 5 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UserCase5.1.png "Use Case 5 Sketch")  
+![Use Case 5 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/RepeatSketch.png "Use Case 5 Sketch")  
 
    Use Case #6
 
