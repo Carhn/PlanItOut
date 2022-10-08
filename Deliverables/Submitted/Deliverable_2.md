@@ -279,7 +279,7 @@ USE CASES
  
 
                4. BASIC FLOW OF EVENTS: 
-	       			1. User taps on the alarm they want to set to repeat
+	       			1. User selects the alarm they want to set to repeat
 				2. User selects when alarm should repeat itself and how frequently
 				3. System confirms with user if the data provided is accurate
 				4. System saves data given
@@ -304,7 +304,7 @@ USE CASES
                9. SPECIAL REQUIREMENTS
 				None
 
-![Use Case 5 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UserCase5.png "Use Case 5 Sketch")  
+![Use Case 5 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UserCase5.1.png "Use Case 5 Sketch")  
 
    Use Case #6
 
