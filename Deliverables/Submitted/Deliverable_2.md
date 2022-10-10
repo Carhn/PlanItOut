@@ -349,7 +349,7 @@ USE CASES
                9. SPECIAL REQUIREMENTS
                NONE
 
-![Use Case 6 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/UseCase6.png "Use Case 6 Sketch")
+![Use Case 6 Sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Use_Case_6.png "Use Case 6 Sketch")
 
 
 
