@@ -180,7 +180,7 @@ USE CASES
                8. POST-CONDITIONS: The cooworker or individual can accept the new calander and view it
 
                9. SPECIAL REQUIREMENTS: NONE
-![Use Case 2 sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Use_case_2.png "Use Case 2 sketch")
+![Use Case 2 sketch](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/use_case_2.png "Use Case 2 sketch")
 
 
    Use Case #3:
