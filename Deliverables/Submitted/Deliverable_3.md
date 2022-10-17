@@ -23,7 +23,7 @@ A third requirement for our system is to have **registered users**, which needs 
 **Contact information** stores the *user’s email address and phone number*. ***Each calendar has only 1 user, while a user can have any number of calendars***.
 ***Each To-Do list has only 1 user, while a user can have any number of To-Do lists***. 
 ***A user only has 1 set of contact information, while each set of contact information has one user.***
-Another part of registered users is a **sharing** system, which contains *the system for sharing, the mobile system for sharing, and a list of shared users". 
+Another part of registered users is a **sharing** system, which contains *the system for sharing, the mobile system for sharing, and a list of shared users*. 
 **A user can share any number of calendars, events, and to do lists, and a calendar, event, and to do list can be shared by any number of users.**
 
 ## 2. Class Diagram
