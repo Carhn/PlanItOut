@@ -25,3 +25,5 @@ A third requirement for our system is to have **registered users**, which needs 
 ***A user only has 1 set of contact information, while each set of contact information has one user.***
 
 ## 2. Class Diagram
+
+![Class Diagram](https://raw.githubusercontent.com/Carhn/PlanItOut/Dev/Deliverables/Deliverable_Images/D3_diagram.drawio.png "Class Diagram")
