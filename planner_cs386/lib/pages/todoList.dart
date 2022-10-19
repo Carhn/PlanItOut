@@ -1,52 +1,30 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:planner_cs386/Resources/colors.dart';
 import 'package:planner_cs386/Resources/routes.dart';
-import 'package:planner_cs386/pages/reminders.dart';
-import 'package:planner_cs386/pages/todoList.dart';
 
-void main() {
-  runApp(MaterialApp(
-    initialRoute: homeRoute,
-    routes: {
-      homeRoute: (context) => const Home(),
-      todoRoute: (context) => Todo(),
-      remindersRoute: (context) => Reminders()
-    },
-  ));
-}
-
-class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
-
-  // This widget is the home page of your application. It is stateful, meaning
-  // that it has a State object (defined below) that contains fields that affect
-  // how it looks.
-
-  // This class is the configuration for the state. It holds the values (in this
-  // case the title) provided by the parent (in this case the App widget) and
-  // used by the build method of the State. Fields in a Widget subclass are
-  // always marked "final".
-
+// ignore: use_key_in_widget_constructors
+class Todo extends StatefulWidget {
   @override
-  State<Home> createState() => _HomeState();
+  State<StatefulWidget> createState() => _TodoState();
 }
 
-class _HomeState extends State<Home> {
+class _TodoState extends State<Todo> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return MaterialApp(
+        home: Scaffold(
       appBar: AppBar(
           backgroundColor: planItOutPrimary,
+          automaticallyImplyLeading: false,
           title: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const <Widget>[Text('PlantItOut'), Text('Calendar')])),
+              children: const <Widget>[Text('PlantItOut'), Text('To Do')])),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: const <Widget>[
             Text(
-              'Calendar Goes here!',
+              'To-do List Goes here!',
             ),
             Text(
               'More to come soon',
@@ -66,7 +44,7 @@ class _HomeState extends State<Home> {
                     Navigator.pushNamedAndRemoveUntil(
                         context, todoRoute, (r) => false);
                   },
-                  color: Colors.white,
+                  color: Colors.white54,
                   highlightColor: Colors.white30,
                   icon: const Icon(Icons.toc_rounded),
                   iconSize: 50,
@@ -76,7 +54,7 @@ class _HomeState extends State<Home> {
                     Navigator.pushNamedAndRemoveUntil(
                         context, homeRoute, (r) => false);
                   },
-                  color: Colors.white54,
+                  color: Colors.white,
                   highlightColor: Colors.white30,
                   icon: const Icon(Icons.calendar_month_rounded),
                   iconSize: 40,
@@ -94,6 +72,6 @@ class _HomeState extends State<Home> {
               ]),
         ),
       ),
-    );
+    ));
   }
 }
