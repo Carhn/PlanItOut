@@ -24,8 +24,8 @@ A third requirement for our system is to have **registered users**, which needs 
 ***Each To-Do list has only 1 user, while a user can have any number of To-Do lists***. 
 ***A user only has 1 set of contact information, while each set of contact information has one user.***
 Another part of registered users is a **sharing** system, which contains *calendar data*. 
-**The calendar data in sharing goes to 1 calendar, and a calendar has only 1 piece of shared data.** 
-**A registered user can share any number of calendars, and a calendar can be shared between any number of users. **
+***The calendar data in sharing goes to 1 calendar, and a calendar has only 1 piece of shared data.***
+***A registered user can share any number of calendars, and a calendar can be shared between any number of users.***
 
 ## 2. Class Diagram
 
