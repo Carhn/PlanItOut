@@ -28,4 +28,4 @@ Another part of registered users is a **sharing** system, which contains *the sy
 
 ## 2. Class Diagram
 
-![Class Diagram](https://raw.githubusercontent.com/Carhn/PlanItOut/Dev/Deliverables/Deliverable_Images/D3_diagram.drawio.png "Class Diagram")
+![Class Diagram](https://raw.githubusercontent.com/Carhn/PlanItOut/Dev/Deliverables/Deliverable_Images/D3_diagram.png "Class Diagram")
