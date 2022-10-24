@@ -87,15 +87,10 @@ class _HomeState extends State<Home> {
                   icon: const Icon(Icons.toc_rounded),
                   iconSize: 50,
                 ),
-                IconButton(
-                  onPressed: () {
-                    Navigator.pushNamedAndRemoveUntil(
-                        context, homeRoute, (r) => false);
-                  },
+                const Icon(
+                  Icons.calendar_month_rounded,
+                  size: 40,
                   color: Colors.white54,
-                  highlightColor: Colors.white30,
-                  icon: const Icon(Icons.calendar_month_rounded),
-                  iconSize: 40,
                 ),
                 IconButton(
                   onPressed: () {
