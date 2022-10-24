@@ -15,7 +15,8 @@ class Reminders extends StatefulWidget {
 
 class _ReminderState extends State<Reminders> {
   TextEditingController controller = TextEditingController();
-  String reminderName = "";
+  String reminderName = "Add Reminder";
+  DateTime dateTime = DateTime.now();
 
   @override
   Widget build(BuildContext context) {
@@ -36,14 +37,40 @@ class _ReminderState extends State<Reminders> {
                 textStyle: const TextStyle(fontSize: 20),
                 foregroundColor: Colors.blueGrey,
               ),
+              child: Text('$reminderName'),
               onPressed: () async {
-                final reminderName = await openDialog(context, controller);
+                final name = await openDialog(context, controller, dateTime);
 
                 //              if (reminderName == null || reminderName.isEmpty)
-
-                print('Name is $reminderName');
+                setState(() => reminderName = name!);
               },
-              child: const Text('Add Reminder'),
+            ),
+            TextButton(
+              child: Text('${dateTime.year}/${dateTime.month}/${dateTime.day}'),
+              onPressed: () async {
+                final date = await pickDate(context, dateTime);
+
+                if (date == null) return;
+
+                setState(() => dateTime = date);
+              },
+            ),
+            TextButton(
+              child: Text('${dateTime.hour}:${dateTime.minute}'),
+              onPressed: () async {
+                final time = await pickTime(context, dateTime);
+
+                if (time == null) return;
+
+                final newDateTime = DateTime(
+                  dateTime.year,
+                  dateTime.month,
+                  dateTime.day,
+                  time.hour,
+                  time.minute,
+                );
+                setState(() => dateTime = newDateTime);
+              },
             ),
           ],
         ),
@@ -92,8 +119,8 @@ class _ReminderState extends State<Reminders> {
   }
 }
 
-Future<String?> openDialog(
-        BuildContext context, TextEditingController controller) =>
+Future<String?> openDialog(BuildContext context,
+        TextEditingController controller, DateTime dateTime) =>
     showDialog<String?>(
       context: context,
       builder: (context) => AlertDialog(
@@ -112,4 +139,18 @@ Future<String?> openDialog(
           ),
         ],
       ),
+    );
+
+Future<DateTime?> pickDate(BuildContext context, DateTime dateTime) =>
+    showDatePicker(
+      context: context,
+      initialDate: dateTime,
+      firstDate: DateTime(1900),
+      lastDate: DateTime(2100),
+    );
+
+Future<TimeOfDay?> pickTime(BuildContext context, DateTime dateTime) =>
+    showTimePicker(
+      context: context,
+      initialTime: TimeOfDay(hour: dateTime.hour, minute: dateTime.minute),
     );
