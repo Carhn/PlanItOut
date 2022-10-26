@@ -4,7 +4,12 @@ import 'package:planner_cs386/Resources/routes.dart';
 
 class Reminder {
   String name = '';
-  int time = 0;
+  DateTime dateTime = DateTime.now();
+
+  Reminder(String name, DateTime dateTime) {
+    this.name = name;
+    this.dateTime = dateTime;
+  }
 }
 
 // ignore: use_key_in_widget_constructors
@@ -17,6 +22,8 @@ class _ReminderState extends State<Reminders> {
   TextEditingController controller = TextEditingController();
   String reminderName = "Add Reminder";
   DateTime dateTime = DateTime.now();
+  Reminder tempReminder = Reminder('', DateTime.now());
+  final rows = <TableRow>[];
 
   @override
   Widget build(BuildContext context) {
@@ -72,6 +79,12 @@ class _ReminderState extends State<Reminders> {
                 setState(() => dateTime = newDateTime);
               },
             ),
+            TextButton(
+                child: Text('SUBMIT'),
+                onPressed: () {
+                  tempReminder = saveReminder(reminderName, dateTime);
+                  print('${tempReminder.name} at ${tempReminder.dateTime}');
+                }),
           ],
         ),
       ),
@@ -154,3 +167,11 @@ Future<TimeOfDay?> pickTime(BuildContext context, DateTime dateTime) =>
       context: context,
       initialTime: TimeOfDay(hour: dateTime.hour, minute: dateTime.minute),
     );
+
+Reminder saveReminder(String reminderName, DateTime dateTime) {
+  Reminder tempReminder = Reminder(reminderName, dateTime);
+
+  // TODO: FIGURE OUT HOW TO DO THIS SAVING
+
+  return tempReminder;
+}
