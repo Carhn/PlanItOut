@@ -1,5 +1,5 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:planner_cs386/eventClass.dart';
 import 'package:planner_cs386/Resources/colors.dart';
 import 'package:planner_cs386/Resources/routes.dart';
 import 'package:planner_cs386/pages/reminders.dart';
@@ -28,6 +28,16 @@ class _HomeState extends State<Home> {
   CalendarFormat format = CalendarFormat.month;
   DateTime _selectedDay = DateTime.now();
   DateTime _focusedDay = DateTime.now();
+
+  late Map<DateTime, List<dynamic>> _events;
+  late List<dynamic> _selectedEvents;
+
+  @override
+  void initState() {
+    super.initState();
+    _events = {};
+    _selectedEvents = [];
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -69,6 +79,13 @@ class _HomeState extends State<Home> {
             _focusedDay = focusedDay; // update `_focusedDay` here as well
           });
         },
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          //Event.addNewEvent();
+        },
+        backgroundColor: planItOutPrimary,
+        child: const Icon(Icons.add_outlined),
       ),
       bottomNavigationBar: BottomAppBar(
         color: planItOutPrimary,
