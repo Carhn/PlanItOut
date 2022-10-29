@@ -102,6 +102,13 @@ class _ReminderState extends State<Reminders> {
                   db.insertData(DataModel(reminderName: controller.text));
                   print('${tempReminder.name} at ${tempReminder.dateTime}');
                 }),
+            Expanded(
+              child: ListView.builder(
+                itemCount: ReminderData.length,
+                itemBuilder: (context, index) =>
+                    DataCard(reminders: ReminderData[index]),
+              ),
+            ),
           ],
         ),
       ),
@@ -189,16 +196,6 @@ Reminder saveReminder(String reminderName, DateTime dateTime) {
   Reminder tempReminder = Reminder(reminderName, dateTime);
 
   // TODO: FIGURE OUT HOW TO DO THIS SAVING
-
-  /*
-
-              ListView.builder(
-              itemCount: ReminderData.length,
-              itemBuilder: (context, index) =>
-                  DataCard(reminders: ReminderData[index]),
-            ),
-
-  */
 
   return tempReminder;
 }
