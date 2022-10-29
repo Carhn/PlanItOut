@@ -82,12 +82,11 @@ class _HomeState extends State<Home> {
               // Calendar stylization
               headerStyle: HeaderStyle(
                 formatButtonShowsNext: false,
-                formatButtonTextStyle: const TextStyle(),
+                formatButtonTextStyle: const TextStyle(color: Colors.white),
                 formatButtonDecoration: BoxDecoration(
-                  border: Border.all(color: Colors.black),
-                  color: Colors.white,
+                  color: planItOutPrimary,
                   shape: BoxShape.rectangle,
-                  borderRadius: BorderRadius.circular(15.0),
+                  borderRadius: BorderRadius.circular(10.0),
                 ),
               ),
               calendarStyle: CalendarStyle(
