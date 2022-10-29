@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:planner_cs386/Resources/colors.dart';
 import 'package:planner_cs386/Resources/routes.dart';
+import 'package:planner_cs386/sqflite/DataModel.dart';
+import 'package:planner_cs386/sqflite/Database.dart';
+import 'package:planner_cs386/sqflite/DataCard.dart';
 
 class Reminder {
   String name = '';
@@ -20,10 +23,23 @@ class Reminders extends StatefulWidget {
 
 class _ReminderState extends State<Reminders> {
   TextEditingController controller = TextEditingController();
+  List<DataModel> ReminderData = [];
   String reminderName = "Add Reminder";
   DateTime dateTime = DateTime.now();
   Reminder tempReminder = Reminder('', DateTime.now());
   final rows = <TableRow>[];
+
+  late DB db;
+  @override
+  void initState() {
+    super.initState();
+    db = DB();
+    getData2();
+  }
+
+  void getData2() async {
+    ReminderData = await db.getData();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -83,6 +99,7 @@ class _ReminderState extends State<Reminders> {
                 child: Text('SUBMIT'),
                 onPressed: () {
                   tempReminder = saveReminder(reminderName, dateTime);
+                  db.insertData(DataModel(reminderName: controller.text));
                   print('${tempReminder.name} at ${tempReminder.dateTime}');
                 }),
           ],
@@ -172,6 +189,16 @@ Reminder saveReminder(String reminderName, DateTime dateTime) {
   Reminder tempReminder = Reminder(reminderName, dateTime);
 
   // TODO: FIGURE OUT HOW TO DO THIS SAVING
+
+  /*
+
+              ListView.builder(
+              itemCount: ReminderData.length,
+              itemBuilder: (context, index) =>
+                  DataCard(reminders: ReminderData[index]),
+            ),
+
+  */
 
   return tempReminder;
 }
