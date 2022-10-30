@@ -59,15 +59,15 @@ to have the project working on time.
 
 ## 6. Deployment
 
-[***DigitalOcean: ***](https://www.digitalocean.com)
-The intented cloud plaform for our server deployment is DigitalOcean.  We current have a server rented and running Ubuntu Server.  At this stage of
+[***DigitalOcean:***](https://www.digitalocean.com)
+ The intented cloud plaform for our server deployment is DigitalOcean.  We current have a server rented and running Ubuntu Server.  At this stage of
 application development, the server is not being utilized.  Currently, the application stores information in a local instance of an SQL database, but this
 will eventually be moved to our cloud server.
 
 ## 7. Licensing
 
-***GNU GPLv3: ***
-We selected the GNU General Public License as it's open source, and allows for the code to be used by anyone who would like to use it with the only caveat
+***GNU GPLv3:***
+ We selected the GNU General Public License as it's open source, and allows for the code to be used by anyone who would like to use it with the only caveat
 being that any projects based of it must remain open source.
 
 ## 8. Readme File
