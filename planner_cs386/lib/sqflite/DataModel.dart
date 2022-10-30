@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class DataModel {
-  final int? reminderId;
+  int? reminderId;
   final String reminderName;
   //final DateTime reminderDay;
   //final DateTime reminderTime;

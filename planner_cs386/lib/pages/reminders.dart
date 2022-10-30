@@ -106,6 +106,7 @@ class _ReminderState extends State<Reminders> {
                   DataModel localReminderData =
                       DataModel(reminderName: controller.text);
                   db.insertData(localReminderData);
+                  localReminderData.reminderId = ReminderData.length + 1;
                   setState(() {
                     ReminderData.add(localReminderData);
                   });
@@ -115,8 +116,11 @@ class _ReminderState extends State<Reminders> {
             Expanded(
               child: ListView.builder(
                 itemCount: ReminderData.length,
-                itemBuilder: (context, index) =>
-                    DataCard(reminders: ReminderData[index]),
+                itemBuilder: (context, index) => DataCard(
+                  reminders: ReminderData[index],
+                  index: index,
+                  delete: delete,
+                ),
               ),
             ),
           ],
@@ -163,6 +167,13 @@ class _ReminderState extends State<Reminders> {
         ),
       ),
     ));
+  }
+
+  void delete(int index) {
+    db.delete(ReminderData[index].reminderId!);
+    setState(() {
+      ReminderData.removeAt(index);
+    });
   }
 }
 

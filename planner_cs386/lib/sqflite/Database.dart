@@ -34,6 +34,12 @@ class DB {
         await db.query("RemindersDB");
     return ReminderData.map((e) => DataModel.fromMap(e)).toList();
   }
+
+  Future<void> delete(int reminderId) async {
+    final Database db = await initDB();
+    await db
+        .delete("RemindersDB", where: "reminderId=?", whereArgs: [reminderId]);
+  }
 }
 
 
