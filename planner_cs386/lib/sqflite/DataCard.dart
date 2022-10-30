@@ -1,3 +1,7 @@
+// Citations: Code relating to sqflite/DB items (display, addition, removal)
+// is modified from Dev Stack's Youtube Flutter SQFlite guide series.  Link to
+// The first video of the series: https://www.youtube.com/watch?v=3SU34qF8_v4
+
 import 'package:flutter/material.dart';
 import 'package:planner_cs386/sqflite/DataModel.dart';
 
