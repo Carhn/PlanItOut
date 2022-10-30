@@ -39,10 +39,10 @@ class _ReminderState extends State<Reminders> {
   void initState() {
     super.initState();
     db = DB();
-    getData2();
+    getData();
   }
 
-  void getData2() async {
+  void getData() async {
     ReminderData = await db.getData();
     setState(() {
       fetching = false;
