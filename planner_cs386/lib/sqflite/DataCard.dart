@@ -7,10 +7,14 @@ class DataCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListTile(
-      leading: CircleAvatar(),
-      title: Text(reminders.reminderName),
-      trailing: CircleAvatar(),
+    return Card(
+      child: ListTile(
+        leading: CircleAvatar(
+          child: Icon(Icons.edit),
+        ),
+        title: Text(reminders.reminderName),
+        trailing: CircleAvatar(child: Icon(Icons.delete)),
+      ),
     );
   }
 }

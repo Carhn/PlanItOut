@@ -23,6 +23,7 @@ class Reminders extends StatefulWidget {
 
 class _ReminderState extends State<Reminders> {
   TextEditingController controller = TextEditingController();
+  bool fetching = true;
   List<DataModel> ReminderData = [];
   String reminderName = "Add Reminder";
   DateTime dateTime = DateTime.now();
@@ -39,6 +40,9 @@ class _ReminderState extends State<Reminders> {
 
   void getData2() async {
     ReminderData = await db.getData();
+    setState(() {
+      fetching = false;
+    });
   }
 
   @override
@@ -99,7 +103,13 @@ class _ReminderState extends State<Reminders> {
                 child: Text('SUBMIT'),
                 onPressed: () {
                   tempReminder = saveReminder(reminderName, dateTime);
-                  db.insertData(DataModel(reminderName: controller.text));
+                  DataModel localReminderData =
+                      DataModel(reminderName: controller.text);
+                  db.insertData(localReminderData);
+                  setState(() {
+                    ReminderData.add(localReminderData);
+                  });
+                  controller.clear();
                   print('${tempReminder.name} at ${tempReminder.dateTime}');
                 }),
             Expanded(
