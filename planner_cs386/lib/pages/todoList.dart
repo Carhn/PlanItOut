@@ -39,10 +39,15 @@ class _TodoState extends State<Todo> {
           child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                const Icon(
+                IconButton(
+                  onPressed: () {
+                    Navigator.pushNamedAndRemoveUntil(
+                        context, todoRoute, (r) => false);
+                  },
                   color: Colors.white54,
-                  Icons.toc_rounded,
-                  size: 50,
+                  highlightColor: Colors.white30,
+                  icon: const Icon(Icons.toc_rounded),
+                  iconSize: 50,
                 ),
                 IconButton(
                   onPressed: () {
