@@ -6,7 +6,7 @@ For our system, the value that it offers to users is that it allows for effectiv
 ## 2. Implemented Requirements
 Requirement: As a user, I want to have a calendar so that I know when events are. <br/>
 Issue: [21](https://github.com/Carhn/PlanItOut/issues/21) <br/>
-Pull request: [Pull Request 20](https://github.com/Carhn/PlanItOut/pull/20) <br/>
+Pull request: [Pull Request 27](https://github.com/Carhn/PlanItOut/pull/27) <br/>
 Implemented by: Terrell Hayward, Payton Cox<br/>
 Approved by: Logan Samstag<br/>
 Print screen: <br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Calendar%20Print%20Screen.png) 
