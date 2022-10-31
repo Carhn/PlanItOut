@@ -17,9 +17,6 @@ These instructions will get you a copy of the project up and running on your loc
 3. Configure the emulator to the wanted mobile device to preview
 4. Run the application
 
-## Running Tests
-TO DO
-
 ## Built With
 
 * [Flutter](https://docs.flutter.dev) - The framework used
