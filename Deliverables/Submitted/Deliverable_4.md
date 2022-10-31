@@ -1,8 +1,30 @@
 # Deliverable 4
 
 ## 1. Introduction
+For our system, the value that it offers to users is that it allows for effective time management. The way that our system accomplishes that is that we have 3 implemented tabs in the application that allow for different forms of time management. We have a tab for a calendar, a tab for a to-do list, and a tab for reminders, and all of them are easily accessible with a button press on the bottom of the screen. The link to the project on Github is [here.](https://github.com/Carhn/PlanItOut/tree/main)
 
 ## 2. Implemented Requirements
+Requirement: As a user, I want to have a calendar so that I know when events are. <br/>
+Issue: [21](https://github.com/Carhn/PlanItOut/issues/21) <br/>
+Pull request: <br/>
+Implemented by: <br/>
+Approved by: Logan Samstag<br/>
+Print screen: <br/>
+
+
+Requirement: As a user, I want a to-do list so that I know what I need to do in a short period of time. <br/>
+Issue: [22](https://github.com/Carhn/PlanItOut/issues/22)<br/>
+Pull request: <br/>
+Implemented by: <br/>
+Approved by: Logan Samstag <br/>
+Print screen: <br/>
+
+Requirement: As a user, I want to be able to add reminders so that I can remind myself of what I need to do. <br/>
+Issue: [23](https://github.com/Carhn/PlanItOut/issues/23)<br/>
+Pull request: [Pull Request 25](https://github.com/Carhn/PlanItOut/pull/25/)<br/>
+Implemented by: Logan Samstag, John Cardeccia<br/>
+Approved by: Logan Samstag <br/>
+Print screen: ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Reminders%20Print%20Screen.png) <br/>
 
 ## 3. Tests
 
