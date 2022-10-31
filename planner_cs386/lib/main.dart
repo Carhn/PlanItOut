@@ -1,10 +1,9 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:planner_cs386/eventClass.dart';
 import 'package:planner_cs386/Resources/colors.dart';
 import 'package:planner_cs386/Resources/routes.dart';
 import 'package:planner_cs386/pages/reminders.dart';
 import 'package:planner_cs386/pages/todoList.dart';
-import 'package:table_calendar/table_calendar.dart';
 
 void main() {
   runApp(MaterialApp(
@@ -20,34 +19,20 @@ void main() {
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
+  // This widget is the home page of your application. It is stateful, meaning
+  // that it has a State object (defined below) that contains fields that affect
+  // how it looks.
+
+  // This class is the configuration for the state. It holds the values (in this
+  // case the title) provided by the parent (in this case the App widget) and
+  // used by the build method of the State. Fields in a Widget subclass are
+  // always marked "final".
+
   @override
   State<Home> createState() => _HomeState();
 }
 
 class _HomeState extends State<Home> {
-  late Map<DateTime, List<Event>> selectedEvents;
-  CalendarFormat format = CalendarFormat.month;
-  DateTime _selectedDay = DateTime.now();
-  DateTime _focusedDay = DateTime.now();
-
-  late TextEditingController _eventController = TextEditingController();
-
-  @override
-  void initState() {
-    selectedEvents = {};
-    super.initState();
-  }
-
-  List<Event> _getEventsFromDay(DateTime date) {
-    return selectedEvents[date] ?? [];
-  }
-
-  @override
-  void dispose() {
-    _eventController.dispose();
-    super.dispose();
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,118 +40,19 @@ class _HomeState extends State<Home> {
           backgroundColor: planItOutPrimary,
           title: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const <Widget>[
-                Text(
-                  'PlantItOut',
-                  style: TextStyle(fontSize: 30.0, fontWeight: FontWeight.bold),
-                ),
-                Text('Calendar')
-              ])),
-      body: SingleChildScrollView(
+              children: const <Widget>[Text('PlantItOut'), Text('Calendar')])),
+      body: Center(
         child: Column(
-          children: [
-            TableCalendar(
-              startingDayOfWeek: StartingDayOfWeek.sunday,
-              focusedDay: _selectedDay,
-              firstDay: DateTime(1990),
-              lastDay: DateTime(2050),
-              calendarFormat: format,
-              onFormatChanged: (CalendarFormat _format) {
-                setState(() {
-                  format = _format;
-                });
-              },
-
-              eventLoader: _getEventsFromDay,
-
-              // Calendar stylization
-              headerStyle: HeaderStyle(
-                formatButtonShowsNext: false,
-                formatButtonTextStyle: const TextStyle(color: Colors.white),
-                formatButtonDecoration: BoxDecoration(
-                  color: planItOutPrimary,
-                  shape: BoxShape.rectangle,
-                  borderRadius: BorderRadius.circular(10.0),
-                ),
-              ),
-              calendarStyle: CalendarStyle(
-                isTodayHighlighted: true,
-                selectedDecoration: BoxDecoration(
-                  color: planItOutPrimary,
-                  shape: BoxShape.rectangle,
-                  borderRadius: BorderRadius.circular(15.0),
-                ),
-                todayDecoration: BoxDecoration(
-                  color: planItOutPrimaryFaded,
-                  shape: BoxShape.rectangle,
-                  borderRadius: BorderRadius.circular(15.0),
-                ),
-                selectedTextStyle: TextStyle(color: Colors.white),
-                defaultDecoration: BoxDecoration(
-                  shape: BoxShape.rectangle,
-                  borderRadius: BorderRadius.circular(15.0),
-                ),
-                weekendDecoration: BoxDecoration(
-                  shape: BoxShape.rectangle,
-                  borderRadius: BorderRadius.circular(15.0),
-                ),
-                outsideDecoration: BoxDecoration(
-                  shape: BoxShape.rectangle,
-                  borderRadius: BorderRadius.circular(15.0),
-                ),
-              ),
-              selectedDayPredicate: (day) {
-                return isSameDay(_selectedDay, day);
-              },
-              onDaySelected: (selectedDay, focusedDay) {
-                setState(() {
-                  _selectedDay = selectedDay;
-                  _focusedDay = focusedDay; // update `_focusedDay` here as well
-                });
-              },
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: const <Widget>[
+            Text(
+              'Calendar Goes here!',
             ),
-            ..._getEventsFromDay(_selectedDay)
-                .map((Event event) => ListTile(title: Text(event.title))),
+            Text(
+              'More to come soon',
+            ),
           ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton.extended(
-        onPressed: () => showDialog(
-            context: context,
-            builder: ((context) => AlertDialog(
-                  title: Text('Add Event'),
-                  content: TextFormField(
-                    controller: _eventController,
-                  ),
-                  actions: [
-                    TextButton(
-                        child: Text('Cancel'),
-                        onPressed: () => Navigator.pop(context)),
-                    TextButton(
-                      child: Text('OK'),
-                      onPressed: () {
-                        if (_eventController.text.isEmpty) {
-                        } else {
-                          if (selectedEvents[_selectedDay] != null) {
-                            selectedEvents[_selectedDay]
-                                ?.add(Event(title: _eventController.text));
-                          } else {
-                            selectedEvents[_selectedDay] = [
-                              Event(title: _eventController.text)
-                            ];
-                          }
-                        }
-                        Navigator.pop(context);
-                        _eventController.clear();
-                        setState(() {});
-                        return;
-                      },
-                    ),
-                  ],
-                ))),
-        backgroundColor: planItOutPrimary,
-        label: Text("Add Event"),
-        icon: Icon(Icons.add),
       ),
       bottomNavigationBar: BottomAppBar(
         color: planItOutPrimary,
@@ -185,10 +71,15 @@ class _HomeState extends State<Home> {
                   icon: const Icon(Icons.toc_rounded),
                   iconSize: 50,
                 ),
-                const Icon(
-                  Icons.calendar_month_rounded,
-                  size: 40,
+                IconButton(
+                  onPressed: () {
+                    Navigator.pushNamedAndRemoveUntil(
+                        context, homeRoute, (r) => false);
+                  },
                   color: Colors.white54,
+                  highlightColor: Colors.white30,
+                  icon: const Icon(Icons.calendar_month_rounded),
+                  iconSize: 40,
                 ),
                 IconButton(
                   onPressed: () {

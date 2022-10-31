@@ -59,10 +59,15 @@ class _ReminderState extends State<Reminders> {
                   icon: const Icon(Icons.calendar_month_rounded),
                   iconSize: 40,
                 ),
-                const Icon(
+                IconButton(
+                  onPressed: () {
+                    Navigator.pushNamedAndRemoveUntil(
+                        context, remindersRoute, (r) => false);
+                  },
                   color: Colors.white54,
-                  Icons.beenhere_rounded,
-                  size: 40,
+                  highlightColor: Colors.white30,
+                  icon: const Icon(Icons.beenhere_rounded),
+                  iconSize: 40,
                 ),
               ]),
         ),
