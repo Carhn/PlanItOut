@@ -6,6 +6,13 @@
 
 ## 3. Tests
 
+***Reminders:***
+1. The dart test package version 1.21.0 was utilized.
+2. [Automated Testing Folder](https://github.com/Carhn/PlanItOut/tree/Dev/planner_cs386/test)
+3. This test case is to check that items being added to our SQL database were actually being added.
+4. ![Image of Reminder Database test](https://raw.githubusercontent.com/Carhn/PlanItOut/Dev/Deliverables/Deliverable_Images/remindersD4Test.png "Reminder Database test")
+
+
 ## 4. Adopted Technologies
 **Include a list of adopted technologies with a brief description and justification for choosing them.**
 
@@ -59,10 +66,19 @@ to have the project working on time.
 
 ## 6. Deployment
 
+[***DigitalOcean:***](https://www.digitalocean.com)
+ The intented cloud plaform for our server deployment is DigitalOcean.  We current have a server rented and running Ubuntu Server.  At this stage of
+application development, the server is not being utilized.  Currently, the application stores information in a local instance of an SQL database, but this
+will eventually be moved to our cloud server.
+
 ## 7. Licensing
 
-## 8. Readme File
+***GNU GPLv3:***
+ We selected the GNU General Public License as it's open source, and allows for the code to be used by anyone who would like to use it with the only caveat
+being that any projects based of it must remain open source.
 
+## 8. Readme File
+The README.md file can be found [here](https://github.com/Carhn/PlanItOut/blob/Dev/README.md).
 ## 9. Look & Feel
 
 ## 10. Lessons Learned
