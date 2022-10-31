@@ -14,7 +14,7 @@ Print screen: <br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/
 
 Requirement: As a user, I want a to-do list so that I know what I need to do in a short period of time. <br/>
 Issue: [22](https://github.com/Carhn/PlanItOut/issues/22)<br/>
-Pull request: <br/>
+Pull request: Was not able to be commited to solo branch. No pull request record avalible. <br/>
 Implemented by: Erick Salazar, Adriel Perez<br/>
 Approved by: Logan Samstag <br/>
 Print screen: Note- This was not able to be fully implemented in time.  <br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/To-Do%20Print%20Screen.png) 
