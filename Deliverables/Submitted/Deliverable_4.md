@@ -9,7 +9,7 @@ Issue: [21](https://github.com/Carhn/PlanItOut/issues/21) <br/>
 Pull request: <br/>
 Implemented by: Terrell Hayward, Payton Cox<br/>
 Approved by: Logan Samstag<br/>
-Print screen: <br/>
+Print screen: <br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Calendar%20Print%20Screen.png) 
 
 
 Requirement: As a user, I want a to-do list so that I know what I need to do in a short period of time. <br/>
