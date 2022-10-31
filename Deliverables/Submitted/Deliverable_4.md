@@ -7,7 +7,7 @@ For our system, the value that it offers to users is that it allows for effectiv
 Requirement: As a user, I want to have a calendar so that I know when events are. <br/>
 Issue: [21](https://github.com/Carhn/PlanItOut/issues/21) <br/>
 Pull request: <br/>
-Implemented by: <br/>
+Implemented by: Terrell Hayward, Payton Cox<br/>
 Approved by: Logan Samstag<br/>
 Print screen: <br/>
 
@@ -15,7 +15,7 @@ Print screen: <br/>
 Requirement: As a user, I want a to-do list so that I know what I need to do in a short period of time. <br/>
 Issue: [22](https://github.com/Carhn/PlanItOut/issues/22)<br/>
 Pull request: <br/>
-Implemented by: <br/>
+Implemented by: Erick Salazar, Adriel Perez<br/>
 Approved by: Logan Samstag <br/>
 Print screen: <br/>
 
