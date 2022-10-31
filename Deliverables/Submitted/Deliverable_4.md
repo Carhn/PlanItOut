@@ -78,7 +78,11 @@ will eventually be moved to our cloud server.
 being that any projects based of it must remain open source.
 
 ## 8. Readme File
-The README.md file can be found [here](https://github.com/Carhn/PlanItOut/blob/Dev/README.md).
+* [README.md](https://github.com/Carhn/PlanItOut/blob/Dev/README.md).
+* [CONTRIBUTIONS.md](https://github.com/Carhn/PlanItOut/blob/Dev/CONTRIBUTIONS.md)
+* [LICENSE.md](https://github.com/Carhn/PlanItOut/blob/Dev/LICENSE.md)
+* [CODE_OF_CONDUCT.md](https://github.com/Carhn/PlanItOut/blob/Dev/CODE_OF_CONDUCT.md)
+
 ## 9. Look & Feel
 
 ## 10. Lessons Learned
