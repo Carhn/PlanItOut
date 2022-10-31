@@ -17,7 +17,7 @@ Issue: [22](https://github.com/Carhn/PlanItOut/issues/22)<br/>
 Pull request: <br/>
 Implemented by: Erick Salazar, Adriel Perez<br/>
 Approved by: Logan Samstag <br/>
-Print screen: <br/>
+Print screen: Note- This was not able to be fully implemented in time.  <br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/To-Do%20Print%20Screen.png) 
 
 Requirement: As a user, I want to be able to add reminders so that I can remind myself of what I need to do. <br/>
 Issue: [23](https://github.com/Carhn/PlanItOut/issues/23)<br/>
