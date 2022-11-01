@@ -29,13 +29,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  table_calendar: ^3.0.7
 
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # This dependency adds support for sqflite
+  sqflite: ^2.2.0+2
+
+  # This dependency adds suport for cross-platform file paths
+  path: ^1.8.2
+
 dev_dependencies:
+
+  test: ^1.21.0
+
   flutter_test:
     sdk: flutter
 

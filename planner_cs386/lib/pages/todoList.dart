@@ -9,6 +9,9 @@ class Todo extends StatefulWidget {
 }
 
 class _TodoState extends State<Todo> {
+
+  bool isChecked = false;
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,19 +22,32 @@ class _TodoState extends State<Todo> {
           title: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const <Widget>[Text('PlantItOut'), Text('To Do')])),
+      
+
+      // checklist location
       body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
-            Text(
-              'To-do List Goes here!',
-            ),
-            Text(
-              'More to come soon',
-            ),
-          ],
+        child: CheckboxListTile(
+          controlAffinity: ListTileControlAffinity.leading,
+          title: Text('Task'),
+          subtitle: Text('Description'),
+          value: isChecked,
+          onChanged: (value) {
+            setState(() => isChecked = value! );
+          },
+          // colors for checkmark
+          activeColor: Colors.green, // background color
+          checkColor: Colors.black, // foreground color
         ),
       ),
+      
+      // add button
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // code to create event on list
+        },
+        child: const Icon(Icons.add)),
+      
+      
       bottomNavigationBar: BottomAppBar(
         color: planItOutPrimary,
         child: SizedBox(
@@ -39,15 +55,10 @@ class _TodoState extends State<Todo> {
           child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
-                IconButton(
-                  onPressed: () {
-                    Navigator.pushNamedAndRemoveUntil(
-                        context, todoRoute, (r) => false);
-                  },
+                const Icon(
                   color: Colors.white54,
-                  highlightColor: Colors.white30,
-                  icon: const Icon(Icons.toc_rounded),
-                  iconSize: 50,
+                  Icons.toc_rounded,
+                  size: 50,
                 ),
                 IconButton(
                   onPressed: () {
