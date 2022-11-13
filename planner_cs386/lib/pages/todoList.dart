@@ -14,7 +14,8 @@ class _TodoState extends State<Todo> {
   // text editor controller for dialog box
   TextEditingController _controller = TextEditingController();
 
-  // list with added tasks
+  // display text variable
+  String displayText = "";
 
   @override
   Widget build(BuildContext context) {
@@ -31,8 +32,7 @@ class _TodoState extends State<Todo> {
       body: Center(
         child: CheckboxListTile(
           controlAffinity: ListTileControlAffinity.leading,
-          title: Text('Task'),
-          subtitle: Text('Description'),
+          title: Text(displayText),
           value: isChecked,
           onChanged: (value) {
             setState(() => isChecked = value!);
@@ -66,7 +66,11 @@ class _TodoState extends State<Todo> {
                           onPressed: () => Navigator.pop(context),
                           child: Text("Cancel")),
                       TextButton(
-                          onPressed: () => Navigator.pop(context),
+                          onPressed: () {
+                            setState(() {
+                              displayText = _controller.text;
+                            });
+                          },
                           child: Text("Add")),
                     ],
                   )),
