@@ -12,7 +12,7 @@ the Local Database package containing Alarm information, Task information, etc..
 retaining a copy of Local Database Package's information in case the user accesses the calendar from a new device.
  
 ## 3. Class Diagram
-![Image of UML Class Diagram](https://raw.githubusercontent.com/Carhn/PlanItOut/Dev/Deliverables/Deliverable_Images/Part3_D4.PNG)
+![Image of UML Class Diagram](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Part3_D5.PNG)
 
 
 ## 4. Sequence Diagram
