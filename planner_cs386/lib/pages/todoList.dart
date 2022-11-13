@@ -9,8 +9,13 @@ class Todo extends StatefulWidget {
 }
 
 class _TodoState extends State<Todo> {
-
   bool isChecked = false;
+
+  // text editor controller for dialog box
+  TextEditingController _controller = TextEditingController();
+
+  // display text variable
+  String displayText = "";
 
   @override
   Widget build(BuildContext context) {
@@ -22,32 +27,56 @@ class _TodoState extends State<Todo> {
           title: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const <Widget>[Text('PlantItOut'), Text('To Do')])),
-      
 
       // checklist location
       body: Center(
         child: CheckboxListTile(
           controlAffinity: ListTileControlAffinity.leading,
-          title: Text('Task'),
-          subtitle: Text('Description'),
+          title: Text(displayText),
           value: isChecked,
           onChanged: (value) {
-            setState(() => isChecked = value! );
+            setState(() => isChecked = value!);
           },
           // colors for checkmark
           activeColor: Colors.green, // background color
           checkColor: Colors.black, // foreground color
         ),
       ),
-      
-      // add button
+
+      // buntton to add task
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          // code to create event on list
-        },
-        child: const Icon(Icons.add)),
-      
-      
+          onPressed: () => showDialog(
+              context: context,
+              builder: (context) => AlertDialog(
+                    title: Text("Add Task"),
+                    content: TextField(
+                      controller: _controller,
+                      decoration: InputDecoration(
+                        hintStyle: TextStyle(color: Colors.blue),
+                        hintText: "Description",
+                        filled: true,
+                        fillColor: Colors.blue[50],
+                        border: OutlineInputBorder(
+                            borderSide: BorderSide.none,
+                            borderRadius: BorderRadius.circular(50)),
+                      ),
+                    ),
+                    actions: [
+                      TextButton(
+                          onPressed: () => Navigator.pop(context),
+                          child: Text("Cancel")),
+                      TextButton(
+                          onPressed: () {
+                            setState(() {
+                              displayText = _controller.text;
+                            });
+                          },
+                          child: Text("Add")),
+                    ],
+                  )),
+          child: const Icon(Icons.add)),
+
+      // bottom bar
       bottomNavigationBar: BottomAppBar(
         color: planItOutPrimary,
         child: SizedBox(
