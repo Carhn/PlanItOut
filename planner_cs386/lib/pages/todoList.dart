@@ -43,7 +43,7 @@ class _TodoState extends State<Todo> {
         ),
       ),
 
-      // buntton to add task
+      // button to add task
       floatingActionButton: FloatingActionButton(
           onPressed: () => showDialog(
               context: context,
@@ -70,6 +70,7 @@ class _TodoState extends State<Todo> {
                             setState(() {
                               displayText = _controller.text;
                             });
+                            Navigator.pop(context);
                           },
                           child: Text("Add")),
                     ],
