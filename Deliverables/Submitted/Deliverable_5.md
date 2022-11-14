@@ -14,6 +14,10 @@ retaining a copy of Local Database Package's information in case the user access
 ## 3. Class Diagram
 
 ## 4. Sequence Diagram
+![Image of adding event sequence diagram](https://raw.githubusercontent.com/Carhn/PlanItOut/Dev/Deliverables/Deliverable_Images/sequence_diagram.png)
+
+**Use case Description**
+The user interacts with the User interface for adding new events. this prompts them to fill out the details including event name and duration, then the user can hit add event. Tapping outside of the UI cancels the interaction. Upon saving, the event data is added to the selected day's event list and that list is added to the data base. Once added to the data base, the event list is updated in the calendar and displayed so the user can view their events in order.
 
 ## 5. Design Patterns
 ### Part 1: Behavioral Pattern - Strategy 
