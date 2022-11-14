@@ -32,3 +32,15 @@ that we would want to add.
 Reminders Class Link: [https://github.com/Carhn/PlanItOut/blob/Dev/planner_cs386/lib/pages/reminders.dart](https://github.com/Carhn/PlanItOut/blob/Dev/planner_cs386/lib/pages/reminders.dart)
 
 ## 6. Design Principles
+
+With our design it follows the SOLID Principles as:
+
+**Single Responsibility Prinicple**- From our class diagram in #3 we can see that each class Home, Reminder, Todo, each has their own unique responsibility. Home is the the create the calander user interface in which it creates. The Reminder sets a name and a date time the user can input for themselves. The Todo creates a list of events in which the user can see for a selected day. Giving each class their single responsibility.
+
+**Open/Close Principle**- From the class diagram from #3 each class we can see extends to their own set of subclasses. For the Home class it extends to HomeState which is under class which can be modified if need be without modififying Class Home. Similarly, for classes Reminder and Todo these also have their own set of subclasses. With Reminder being Reminders and Reminder State, and Todo being TodoState. All classes following the same principle. 
+
+**Liskov substitution principle**- For this principle we must be able to substitute parent classes with their child classes and not have a blow up in our application. For this case we look back at our class diagram in quuestion #3 Each Class the divides into sub child classes implement their own structure of their parent class. This is able to highlight the principle by the app still being able to run with classes being substituted. 
+
+**Interface segregation principle**- This is taken care of from the different interfaces that we use for the features of the application. In the Architecture diagram #2 we can see the user interface consists of three interfaces. These are broken up into Calandar, Events, Todo. These give the user different options because each of these interfaces bring their own principles which satisifies Interface segregation principle.
+
+**Dependency inversion principle**- For this principle we will use the class diagram #3 in which we see our classes Home, Reminder, and Todo. All of these classes follow the same abstraction which implements the presentation of the viewer and runs the application. This way the classes are not having to be dependent on eachother. 
