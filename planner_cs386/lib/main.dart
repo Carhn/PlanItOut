@@ -30,12 +30,31 @@ class _HomeState extends State<Home> {
   DateTime _selectedDay = DateTime.now();
   DateTime _focusedDay = DateTime.now();
 
+  late TimeOfDay time;
+
+  String? _selectedTime;
+
   late TextEditingController _eventController = TextEditingController();
+
+  TextEditingController _timeController = TextEditingController();
+
+  var content;
 
   @override
   void initState() {
     selectedEvents = {};
+    time = TimeOfDay.now();
     super.initState();
+  }
+
+  Future<void> _show(BuildContext context) async {
+    final TimeOfDay? result =
+        await showTimePicker(context: context, initialTime: TimeOfDay.now());
+    if (result != null) {
+      setState(() {
+        _selectedTime = result.format(context);
+      });
+    }
   }
 
   List<Event> _getEventsFromDay(DateTime date) {
@@ -45,6 +64,7 @@ class _HomeState extends State<Home> {
   @override
   void dispose() {
     _eventController.dispose();
+    _timeController.dispose();
     super.dispose();
   }
 
@@ -139,6 +159,11 @@ class _HomeState extends State<Home> {
                     controller: _eventController,
                   ),
                   actions: [
+                    IconButton(
+                        icon: Icon(Icons.alarm),
+                        onPressed: () {
+                          _show(context);
+                        }),
                     TextButton(
                         child: Text('Cancel'),
                         onPressed: () => Navigator.pop(context)),
@@ -165,7 +190,7 @@ class _HomeState extends State<Home> {
                   ],
                 ))),
         backgroundColor: planItOutPrimary,
-        label: Text("Add Event"),
+        label: Text("Add Events"),
         icon: Icon(Icons.add),
       ),
       bottomNavigationBar: BottomAppBar(
