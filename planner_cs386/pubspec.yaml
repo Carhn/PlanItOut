@@ -41,6 +41,7 @@ dependencies:
 
   # This dependency adds suport for cross-platform file paths
   path: ^1.8.2
+  flutter_time_picker_spinner: ^2.0.0
 
 dev_dependencies:
 

@@ -2,52 +2,81 @@ import 'package:flutter/material.dart';
 import 'package:planner_cs386/Resources/colors.dart';
 import 'package:planner_cs386/Resources/routes.dart';
 
-// ignore: use_key_in_widget_constructors
-class Todo extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() => _TodoState();
+class Todo {
+  Todo({required this.name, required this.checked});
+  final String name;
+  bool checked;
 }
 
-class _TodoState extends State<Todo> {
+class TodoItem extends StatelessWidget {
+  TodoItem({
+    required this.todo,
+    required this.onTodoChanged,
+  }) : super(key: ObjectKey(todo));
 
-  bool isChecked = false;
+  final Todo todo;
+  final onTodoChanged;
+
+  TextStyle? _getTextStyle(bool checked) {
+    if (!checked) return null;
+
+    return TextStyle(
+      color: Colors.black54,
+      decoration: TextDecoration.lineThrough,
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        home: Scaffold(
-      appBar: AppBar(
+    return ListTile(
+      onTap: () {
+        onTodoChanged(todo);
+      },
+      leading: Icon(
+        Icons.domain_verification_rounded,
+      ),
+      title: Text(todo.name, style: _getTextStyle(todo.checked)),
+    );
+  }
+}
+
+class TodoList extends StatefulWidget {
+  @override
+  _TodoListState createState() => new _TodoListState();
+}
+
+class _TodoListState extends State<TodoList> {
+  final TextEditingController _textFieldController = TextEditingController();
+  final List<Todo> _todos = <Todo>[];
+
+  @override
+  Widget build(BuildContext context) {
+    return new Scaffold(
+      appBar: new AppBar(
           backgroundColor: planItOutPrimary,
-          automaticallyImplyLeading: false,
           title: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: const <Widget>[Text('PlantItOut'), Text('To Do')])),
-      
+              children: const <Widget>[Text('PlantItOut'), Text('Todo List')])),
 
-      // checklist location
-      body: Center(
-        child: CheckboxListTile(
-          controlAffinity: ListTileControlAffinity.leading,
-          title: Text('Task'),
-          subtitle: Text('Description'),
-          value: isChecked,
-          onChanged: (value) {
-            setState(() => isChecked = value! );
-          },
-          // colors for checkmark
-          activeColor: Colors.green, // background color
-          checkColor: Colors.black, // foreground color
-        ),
+      // AREA TO SHOW LIST OF TASKS
+      body: ListView(
+        padding: EdgeInsets.symmetric(vertical: 8.0),
+        children: _todos.map((Todo todo) {
+          return TodoItem(
+            todo: todo,
+            onTodoChanged: _handleTodoChange,
+          );
+        }).toList(),
       ),
-      
-      // add button
+
+      // ADD BUTTON
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          // code to create event on list
-        },
-        child: const Icon(Icons.add)),
-      
-      
+          backgroundColor: planItOutPrimary,
+          onPressed: () => _displayDialog(),
+          tooltip: 'Add Item',
+          child: Icon(Icons.add)),
+
+      // NAVIGATION AREA AT BOTTOM
       bottomNavigationBar: BottomAppBar(
         color: planItOutPrimary,
         child: SizedBox(
@@ -83,6 +112,55 @@ class _TodoState extends State<Todo> {
               ]),
         ),
       ),
-    ));
+    );
+  }
+
+  void _handleTodoChange(Todo todo) {
+    setState(() {
+      todo.checked = !todo.checked;
+    });
+  }
+
+  void _addTodoItem(String name) {
+    setState(() {
+      _todos.add(Todo(name: name, checked: false));
+    });
+    _textFieldController.clear();
+  }
+
+  Future<void> _displayDialog() async {
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: false, // user must tap button!
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: const Text('Add a new todo item'),
+          content: TextField(
+            controller: _textFieldController,
+            decoration: InputDecoration(
+                filled: true,
+                fillColor: Colors.blue[50],
+                border: OutlineInputBorder(
+                  borderSide: BorderSide.none,
+                  borderRadius: BorderRadius.circular(50),
+                ),
+                hintStyle: TextStyle(color: Colors.blue),
+                hintText: 'Description'),
+          ),
+          actions: <Widget>[
+            TextButton(
+                onPressed: Navigator.of(context).pop,
+                child: const Text('Cancel')),
+            TextButton(
+              child: const Text('Add'),
+              onPressed: () {
+                Navigator.of(context).pop();
+                _addTodoItem(_textFieldController.text);
+              },
+            ),
+          ],
+        );
+      },
+    );
   }
 }
