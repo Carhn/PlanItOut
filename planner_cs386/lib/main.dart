@@ -11,7 +11,7 @@ void main() {
     initialRoute: homeRoute,
     routes: {
       homeRoute: (context) => const Home(),
-      todoRoute: (context) => Todo(),
+      todoRoute: (context) => TodoList(),
       remindersRoute: (context) => Reminders()
     },
   ));
