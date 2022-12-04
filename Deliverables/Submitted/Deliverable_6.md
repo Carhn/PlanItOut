@@ -11,15 +11,15 @@
 ## 5. Code Quality
 In order to guarentee a minimum level of code quality, and a uniform style, we had three best practices for writing project code:
 
-	1) The use of self-describing variables.  The purpose of this is to make it clear to any one reading or reviewing code what data
-	   a particular variable was being used to store.
+   1) The use of self-describing variables.  The purpose of this is to make it clear to any one reading or reviewing code what data
+   a particular variable was being used to store.
 
-	2) The inclusion of comments.  Comments are - we feel - necessary to include along side self-describing variables.  The variable
-	   names make it clear what the variable stores, but not necessarily how it is being used or how it fits into the function or the
-	   program as a whole.  To provide that context we employed the use of comments.
+   2) The inclusion of comments.  Comments are - we feel - necessary to include along side self-describing variables.  The variable
+   names make it clear what the variable stores, but not necessarily how it is being used or how it fits into the function or the
+   program as a whole.  To provide that context we employed the use of comments.
 
-	3) Each of our project teams had standard tests that were utilized prior to submission of the new code, making sure that all new
-	   code worked correctly.
+   3) Each of our project teams had standard tests that were utilized prior to submission of the new code, making sure that all new
+   code worked correctly.
 
 Beyond our best practices for code development, we also required all merge requests to be reviewed and approved by a developer that did
 not work on the section of the code being altered.  This was to gaurentee the code was legible and met our previously mentioned require-
