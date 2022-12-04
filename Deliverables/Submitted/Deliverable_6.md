@@ -1,6 +1,7 @@
 # Deliverable 4
 
 ## 1. Introduction
+For our system, the value that it offers to users is that it allows for effective time management. The way that our system accomplishes that is that we have 3 implemented tabs in the application that allow for different forms of time management. We have a tab for a calendar, a tab for a to-do list, and a tab for reminders, and all of them are easily accessible with a button press on the bottom of the screen. The link to the project on Github is [here.](https://github.com/Carhn/PlanItOut/tree/main)
 
 ## 2. Implemented Requirements
 
