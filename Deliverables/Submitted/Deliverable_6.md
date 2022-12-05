@@ -35,7 +35,7 @@ Approved by: Logan Samstag <br/>
 ***ToDo List***
 1. The dart test package version 1.21.0 was utilized.
 2. [Automated Testing Folder](https://github.com/Carhn/PlanItOut/tree/Dev/planner_cs386/test)
-3. This test case is to check that the add button reacts when pressed.
+3. These tests are to check that a new task was added and that the add button can be found.
 4. ![Image of event test](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/d6_test.PNG)
 
 ## 4. Demo
