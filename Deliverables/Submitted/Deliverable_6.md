@@ -28,6 +28,12 @@ Approved by: Logan Samstag <br/>
 
 ## 4. Demo
 
+**Demo Video**
+
+https://user-images.githubusercontent.com/113069537/205549181-2b7b914c-4ed3-4f2c-b4e4-a985e075e3b0.mp4
+
+
+
 ## 5. Code Quality
 In order to guarentee a minimum level of code quality, and a uniform style, we had three best practices for writing project code:
 
