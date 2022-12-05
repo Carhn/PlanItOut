@@ -1,11 +1,30 @@
-# Deliverable 4
+# Deliverable 6
 
 ## 1. Introduction
 For our system, the value that it offers to users is that it allows for effective time management. The way that our system accomplishes that is that we have 3 implemented tabs in the application that allow for different forms of time management. We have a tab for a calendar, a tab for a to-do list, and a tab for reminders, and all of them are easily accessible with a button press on the bottom of the screen. The link to the project on Github is [here.](https://github.com/Carhn/PlanItOut/tree/main)
 
 ## 2. Implemented Requirements
+Requirement: As a user, I want to have a calendar so that I know when events are. <br/>
+Issue: [21](https://github.com/Carhn/PlanItOut/issues/21) <br/>
+Pull request: [Pull Request 38](https://github.com/Carhn/PlanItOut/pull/38) <br/>
+Implemented by: Terrell Hayward, Payton Cox<br/>
+Approved by: Logan Samstag<br/>
+Print screen: <br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/D6_Calendar.png) 
 
+
+Requirement: As a user, I want a to-do list so that I know what I need to do in a short period of time. <br/>
+Issue: [22](https://github.com/Carhn/PlanItOut/issues/22)<br/>
+Pull request: [Pull Request 40](https://github.com/Carhn/PlanItOut/pull/40/) <br/>
+Implemented by: Erick Salazar, Adriel Perez<br/>
+Approved by: Logan Samstag <br/>
+<br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/D6_ToDo_PrintScreen.png) 
 ## 3. Tests
+
+***Reminders:***
+1. The dart test package version 1.21.0 was utilized.
+2. [Automated Testing Folder](https://github.com/Carhn/PlanItOut/tree/Dev/planner_cs386/test)
+3. This test case is to check that items being added to our SQL database were actually being added.
+4. ![Image of Reminder Database test](https://raw.githubusercontent.com/Carhn/PlanItOut/Dev/Deliverables/Deliverable_Images/remindersD4Test.png "Reminder Database test")
 
 ## 4. Demo
 
