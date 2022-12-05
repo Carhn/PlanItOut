@@ -6,7 +6,7 @@ For our system, the value that it offers to users is that it allows for effectiv
 ## 2. Implemented Requirements
 Requirement: As a user, I want to have a calendar so that I know when events are. <br/>
 Issue: [21](https://github.com/Carhn/PlanItOut/issues/21) <br/>
-Pull request: [Pull Request 20](https://github.com/Carhn/PlanItOut/pull/20) <br/>
+Pull request: [Pull Request 27](https://github.com/Carhn/PlanItOut/pull/27) <br/>
 Implemented by: Terrell Hayward, Payton Cox<br/>
 Approved by: Logan Samstag<br/>
 Print screen: <br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Calendar%20Print%20Screen.png) 
@@ -14,10 +14,10 @@ Print screen: <br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/
 
 Requirement: As a user, I want a to-do list so that I know what I need to do in a short period of time. <br/>
 Issue: [22](https://github.com/Carhn/PlanItOut/issues/22)<br/>
-Pull request: <br/>
+Pull request: [Pull Request 29](https://github.com/Carhn/PlanItOut/pull/29/) <br/>
 Implemented by: Erick Salazar, Adriel Perez<br/>
 Approved by: Logan Samstag <br/>
-Print screen: <br/>
+Print screen: Note- This was not able to be fully implemented in time.  <br/> ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/To-Do%20Print%20Screen.png) 
 
 Requirement: As a user, I want to be able to add reminders so that I can remind myself of what I need to do. <br/>
 Issue: [23](https://github.com/Carhn/PlanItOut/issues/23)<br/>
@@ -39,6 +39,12 @@ Print screen: ![Print Screen](https://github.com/Carhn/PlanItOut/blob/Dev/Delive
 2. [Automated Testing Folder](https://github.com/Carhn/PlanItOut/tree/Dev/planner_cs386/test)
 3. This test case is to check that new events added have the proper titles
 4. ![Image of event test](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/CalendarTest.png)
+
+***ToDo List***
+1. The dart test package version 1.21.0 was utilized.
+2. [Automated Testing Folder](https://github.com/Carhn/PlanItOut/tree/Dev/planner_cs386/test)
+3. This test case is to check that the add button reacts when pressed.
+4. ![Image of event test](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/checklistD4Test.PNG)
 
 ## 4. Adopted Technologies
 **Include a list of adopted technologies with a brief description and justification for choosing them.**
@@ -111,7 +117,16 @@ being that any projects based of it must remain open source.
 * [CODE_OF_CONDUCT.md](https://github.com/Carhn/PlanItOut/blob/Dev/CODE_OF_CONDUCT.md)
 
 ## 9. Look & Feel
+ The interface of the PlanItOut Calendar Application we decided to go with a simple look with color that stands out. We decided to go with this approach because it will be visually easy for the user to use the application and with it being the first release the user could have simple features to use. With the interface the user is able to easily access days throughout the week, they are also able to switch between months and years. Again keeping in mind the first release we wanted to make it simple for the user. So in the interface they will see a button that they are able to use to add events to days selected by the users. These events will make reminders that are set by the user to be how frequent they would like to know about upcoming events that they set. 
+![Image of Userface with Application](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/Q9D4.png)
 
 ## 10. Lessons Learned
+ For the first release the team learned that the calendar just needs to stay simplistic. The interface needs to be easily accessible with the user being able to make sure they can navigate through what they want. It is also important to note that the first release is also to see how well the application is used and how it will be used for the future. For the second release a few more features will be implemented so the user is able to get the most out of the application. 
 
-## 11. Demo
+
+## 11.
+
+https://user-images.githubusercontent.com/82531029/198937949-82cb8f49-de21-4f77-a6fc-12203ada91f1.mp4
+
+ Demo
+

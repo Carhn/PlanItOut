@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_time_picker_spinner/flutter_time_picker_spinner.dart';
 import 'package:planner_cs386/eventClass.dart';
 import 'package:planner_cs386/Resources/colors.dart';
 import 'package:planner_cs386/Resources/routes.dart';
@@ -32,6 +33,13 @@ class _HomeState extends State<Home> {
 
   late TextEditingController _eventController = TextEditingController();
 
+  String dropdownValue = '1';
+  String dropdownValueMin = '00';
+  String dropdownValueAmPm = 'am';
+
+  var items = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'];
+  var itemsMin = [];
+  var itemsAmPm = ['am', 'pm'];
   @override
   void initState() {
     selectedEvents = {};
@@ -134,10 +142,158 @@ class _HomeState extends State<Home> {
         onPressed: () => showDialog(
             context: context,
             builder: ((context) => AlertDialog(
+                  insetPadding: const EdgeInsets.symmetric(vertical: 20.0),
                   title: Text('Add Event'),
-                  content: TextFormField(
-                    controller: _eventController,
-                  ),
+                  content: Column(children: [
+                    TextField(
+                      decoration: const InputDecoration(hintText: 'Event Name'),
+                      controller: _eventController,
+                    ),
+                    const Padding(
+                        padding: EdgeInsets.only(top: 20.0, right: 150.0),
+                        child: Text('Event Start:')),
+                    Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                        children: [
+                          DropdownButton(
+                            // Initial Value
+                            value: dropdownValue,
+
+                            // Down Arrow Icon
+                            icon: const Icon(Icons.keyboard_arrow_down),
+
+                            // Array list of items
+                            items: items.map((String items) {
+                              return DropdownMenuItem(
+                                value: items,
+                                child: Text(items),
+                              );
+                            }).toList(),
+                            // After selecting the desired option,it will
+                            // change button value to selected value
+                            onChanged: (String? newValue) {
+                              setState(() {
+                                dropdownValue = newValue!;
+                              });
+                            },
+                          ),
+                          Text(':'),
+                          DropdownButton(
+                            // Initial Value
+                            value: dropdownValue,
+
+                            // Down Arrow Icon
+                            icon: const Icon(Icons.keyboard_arrow_down),
+
+                            // Array list of items
+                            items: items.map((String items) {
+                              return DropdownMenuItem(
+                                value: items,
+                                child: Text(items),
+                              );
+                            }).toList(),
+                            // After selecting the desired option,it will
+                            // change button value to selected value
+                            onChanged: (String? newValue) {
+                              setState(() {
+                                dropdownValue = newValue!;
+                              });
+                            },
+                          ),
+                          DropdownButton(
+                            // Initial Value
+                            value: dropdownValueAmPm,
+
+                            // Down Arrow Icon
+                            icon: const Icon(Icons.keyboard_arrow_down),
+
+                            // Array list of items
+                            items: itemsAmPm.map((String items) {
+                              return DropdownMenuItem(
+                                value: items,
+                                child: Text(items),
+                              );
+                            }).toList(),
+                            // After selecting the desired option,it will
+                            // change button value to selected value
+                            onChanged: (String? newValue) {
+                              setState(() {
+                                dropdownValueAmPm = newValue!;
+                              });
+                            },
+                          ),
+                        ]),
+                    const Padding(
+                        padding: EdgeInsets.only(top: 20.0, right: 160.0),
+                        child: Text('Event End:')),
+                    DropdownButton(
+                      // Initial Value
+                      value: dropdownValue,
+
+                      // Down Arrow Icon
+                      icon: const Icon(Icons.keyboard_arrow_down),
+
+                      // Array list of items
+                      items: items.map((String items) {
+                        return DropdownMenuItem(
+                          value: items,
+                          child: Text(items),
+                        );
+                      }).toList(),
+                      // After selecting the desired option,it will
+                      // change button value to selected value
+                      onChanged: (String? newValue) {
+                        setState(() {
+                          dropdownValue = newValue!;
+                        });
+                      },
+                    ),
+                    Text(':'),
+                    DropdownButton(
+                      // Initial Value
+                      value: dropdownValue,
+
+                      // Down Arrow Icon
+                      icon: const Icon(Icons.keyboard_arrow_down),
+
+                      // Array list of items
+                      items: items.map((String items) {
+                        return DropdownMenuItem(
+                          value: items,
+                          child: Text(items),
+                        );
+                      }).toList(),
+                      // After selecting the desired option,it will
+                      // change button value to selected value
+                      onChanged: (String? newValue) {
+                        setState(() {
+                          dropdownValue = newValue!;
+                        });
+                      },
+                    ),
+                    DropdownButton(
+                      // Initial Value
+                      value: dropdownValueAmPm,
+
+                      // Down Arrow Icon
+                      icon: const Icon(Icons.keyboard_arrow_down),
+
+                      // Array list of items
+                      items: itemsAmPm.map((String items) {
+                        return DropdownMenuItem(
+                          value: items,
+                          child: Text(items),
+                        );
+                      }).toList(),
+                      // After selecting the desired option,it will
+                      // change button value to selected value
+                      onChanged: (String? newValue) {
+                        setState(() {
+                          dropdownValueAmPm = newValue!;
+                        });
+                      },
+                    ),
+                  ]),
                   actions: [
                     TextButton(
                         child: Text('Cancel'),
