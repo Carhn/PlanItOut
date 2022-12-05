@@ -32,6 +32,12 @@ Approved by: Logan Samstag <br/>
 3. This test case is to check that new events added have the proper titles
 4. ![Image of event test](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/CalendarTest.png)
 
+***ToDo List***
+1. The dart test package version 1.21.0 was utilized.
+2. [Automated Testing Folder](https://github.com/Carhn/PlanItOut/tree/Dev/planner_cs386/test)
+3. This test case is to check that the add button reacts when pressed.
+4. ![Image of event test](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/d6_test.PNG)
+
 ## 4. Demo
 
 **Demo Video**
