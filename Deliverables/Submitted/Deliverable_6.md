@@ -26,6 +26,12 @@ Approved by: Logan Samstag <br/>
 3. This test case is to check that items being added to our SQL database were actually being added.
 4. ![Image of Reminder Database test](https://raw.githubusercontent.com/Carhn/PlanItOut/Dev/Deliverables/Deliverable_Images/remindersD4Test.png "Reminder Database test")
 
+***Calendar***
+1. The dart test package version 1.21.0 was utilized.
+2. [Automated Testing Folder](https://github.com/Carhn/PlanItOut/tree/Dev/planner_cs386/test)
+3. This test case is to check that new events added have the proper titles
+4. ![Image of event test](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/CalendarTest.png)
+
 ## 4. Demo
 
 **Demo Video**
