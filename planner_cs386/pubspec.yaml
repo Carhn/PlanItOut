@@ -36,7 +36,17 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  # This dependency adds support for sqflite
+  sqflite: ^2.2.0+2
+
+  # This dependency adds suport for cross-platform file paths
+  path: ^1.8.2
+  flutter_time_picker_spinner: ^2.0.0
+
 dev_dependencies:
+
+  test: ^1.21.0
+
   flutter_test:
     sdk: flutter
 
