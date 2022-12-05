@@ -27,9 +27,16 @@ The user interacts with the User interface for adding new events. this prompts t
 
 While this may not be the exact way that the system is implemented at the current moment, we would be able to change the system to be like this fairly easily, 
 and this change would allow for us to add more kinds of reminders fairly easily, as we simply would need to make a new class pertaining to the new reminder type 
-that we would want to add. 
-
+that we would want to add.
 Reminders Class Link: [https://github.com/Carhn/PlanItOut/blob/Dev/planner_cs386/lib/pages/reminders.dart](https://github.com/Carhn/PlanItOut/blob/Dev/planner_cs386/lib/pages/reminders.dart)
+
+### Part 2: Creational Pattern - Builder
+![Part 2 Diagram](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/D5Part5_Adriel.png)
+
+At this current state of development, this is a solid representation of the creational pattern since we do not have a heavy enough foundation on the app to
+create a more advanced 'builder' type. This builder system allows a user to add as many To Do's as needed only adding details the user needs such as the name of the
+To Do, if it has been completed, and the remaining list of To Do's.
+To Do Class Link: [https://github.com/Carhn/PlanItOut/blob/Dev/planner_cs386/lib/pages/todoList.dart](https://github.com/Carhn/PlanItOut/blob/Dev/planner_cs386/lib/pages/todoList.dart)
 
 ## 6. Design Principles
 
