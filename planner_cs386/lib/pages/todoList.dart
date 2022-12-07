@@ -42,7 +42,7 @@ class TodoItem extends StatelessWidget {
 
 class TodoList extends StatefulWidget {
   @override
-  _TodoListState createState() => new _TodoListState();
+  _TodoListState createState() => _TodoListState();
 }
 
 class _TodoListState extends State<TodoList> {
@@ -51,8 +51,8 @@ class _TodoListState extends State<TodoList> {
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
+    return Scaffold(
+      appBar: AppBar(
           backgroundColor: planItOutPrimary,
           title: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -60,7 +60,7 @@ class _TodoListState extends State<TodoList> {
 
       // AREA TO SHOW LIST OF TASKS
       body: ListView(
-        padding: EdgeInsets.symmetric(vertical: 8.0),
+        padding: const EdgeInsets.symmetric(vertical: 8.0),
         children: _todos.map((Todo todo) {
           return TodoItem(
             todo: todo,
@@ -128,7 +128,7 @@ class _TodoListState extends State<TodoList> {
     _textFieldController.clear();
   }
 
-  Future<void> _displayDialog() async {
+  void _displayDialog() async {
     return showDialog<void>(
       context: context,
       barrierDismissible: false, // user must tap button!
