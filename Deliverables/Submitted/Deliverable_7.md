@@ -34,9 +34,11 @@ Script: For the script, I simply gave the user the task of adding one of each ty
 From the data that I gathered, it seems that the user thought that the app would be useful if it was developed further, but as of right now the app needs more 
 polish in order to be fully useful. For questions, I mainly asked about what the user thought about the user interface, as that was one of our focuses in 
 requirements, as well as general thoughts on the app for us to use if we develop the application further. 
+   
 Results: The results that I gathered from the user were interesting. As mentioned above, the user seems to be interested in the application, however the application
 seems too rough right now for the user to want to use it. Additionally, the user pointed out that some of the sections were inconsistent, such as the calendar not 
 being able to fully save events while reminders were able to, which is a focus that we can focus on later in development. 
+   
 Reflections: Overall, what I would say worked well is that the system was able to show to a user how this kind of an application would work, and how the basic 
 functionality of the application works. I would say that we could change the system to be more consistent and have a more developed user interface. However, the 
 most interesting thing that I noticed is that the user seemed to get what to do on the application immediately, which is good as we wish for the app to be easy to 
@@ -45,11 +47,17 @@ use. This leads me to think that we have, at least partially, accomplished our i
 
 ### Interview 2: 
 Script:   
-Results:   
+   
+Results:  
+   
 Reflections: 
+   
 
 
 ### Interview 3: 
 Script:   
+   
 Results:   
+   
 Reflections: 
+   
