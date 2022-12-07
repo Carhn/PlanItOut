@@ -25,13 +25,13 @@ For our system, the value that it offers to users is that it allows for effectiv
 4. ![Image of event test](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/d6_test.PNG)
 
 ### 2.2 Acceptance Tests
-![Image of Acceptancetest1](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at1.PNG)
-![Image of Acceptancetest2](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at2.PNG)
-![Image of Acceptancetest3](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at3.PNG)
-![Image of Acceptancetest4](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at4.PNG)
-![Image of Acceptancetest5](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at5.PNG)
-![Image of Acceptancetest6](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at6.PNG)
-![Image of Acceptancetest7](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at7.PNG)
+![Image of Acceptancetest1](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at1.jpg)
+![Image of Acceptancetest2](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at2.jpg)
+![Image of Acceptancetest3](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at3.jpg)
+![Image of Acceptancetest4](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at4.jpg)
+![Image of Acceptancetest5](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at5.jpg)
+![Image of Acceptancetest6](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at6.jpg)
+![Image of Acceptancetest7](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/group/at7.jpg)
 
 
 ## 3. User Validation
