@@ -46,13 +46,15 @@ use. This leads me to think that we have, at least partially, accomplished our i
 
 
 ### Interview 2: 
-Script:   
+Script: For this interview, I gave the test user the device and had them play around and get used to it. Then I asked then to create a calendar event, switch calendar view, create a reminder, and to create a to-do item.   
    
-Results:  
+Results: The results of this was that while there is some polishing and touch ups to do, the UI is very clean and easy to use. The user said that the features on the app were super simple and took no effort to dicover how to use them; everything they expected to happened happend.
+There are some bugs that need to be ironed out but they know it is a school project so that was not a huge concern for them.
+Some areas of improvement for the app would be to ability to have custom colors on calendar events and larger touch targets or swipe gestures to navigate the app
    
-Reflections: 
-   
-
+Reflections: Overall the user was very pleased and impressed with the app and saw a lot of potential. I think the app is a success for being the first app any of our team has worked on, but we know there is a lot to improve. For example There is not 100% consistency throughout the app's UI and colorscheme.
+There are futher improvements that we did not get to such as storing the events and to-do items as well as displaying all three organizational items under one view like our team originally planned. 
+Dispite our shortcommings, I feel that we acheived our goal and fulfilled the original value proposition laid before us.
 
 ### Interview 3: 
 Script:   
