@@ -64,9 +64,9 @@ There are futher improvements that we did not get to such as storing the events 
 Dispite our shortcommings, I feel that we acheived our goal and fulfilled the original value proposition laid before us.
 
 ### Interview 3: 
-Script:   
+Script: For Interview three, I had the the user run the app and use the different features that were offered in the app. I had them create a calander event, a to-do list item and a reminder. I also had them stress the app with making multiple of these items as well as creating the same item multiple times to see if the app will hold. 
    
-Results:   
+Results: The results that I gathered from the user were postive, the user was overall satisfied with the overall production and usefulness of the app. They were most satisfied with the the interface of the app and how simple it was to use. The navigation of the app was also a postive reflection for the user. They were very satisifed with the ability to switch between the the reminders, to-do list, and calander from the interface. 
    
-Reflections: 
+Reflections: In the end the user was pleased with the app and the production that it brought for them. I believe that the launch of the application was a success with it being the first one that the group developed and put out. Now with that being said there is also some features that could be added to the app to make the experience overall better for the user. For example, the ability to color code certain events based on what group they can put in was one thing that the user recommended. There are some bugs as well that can be ironed out as well within the app as such some connections to a database to store this information from the app to save the user's planner information. I believe our group did a good job, especially given that most people in the group were not familar with the tools in the beginning of the project, but were able to overcome these bumps and put out a MVP.
    
