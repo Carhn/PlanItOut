@@ -26,7 +26,25 @@ Approved by: Logan Samstag <br/>
 3. This test case is to check that items being added to our SQL database were actually being added.
 4. ![Image of Reminder Database test](https://raw.githubusercontent.com/Carhn/PlanItOut/Dev/Deliverables/Deliverable_Images/remindersD4Test.png "Reminder Database test")
 
+***Calendar***
+1. The dart test package version 1.21.0 was utilized.
+2. [Automated Testing Folder](https://github.com/Carhn/PlanItOut/tree/Dev/planner_cs386/test)
+3. This test case is to check that new events added have the proper titles
+4. ![Image of event test](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/CalendarTest.png)
+
+***ToDo List***
+1. The dart test package version 1.21.0 was utilized.
+2. [Automated Testing Folder](https://github.com/Carhn/PlanItOut/tree/Dev/planner_cs386/test)
+3. These tests are to check that a new task was added and that the add button can be found.
+4. ![Image of event test](https://github.com/Carhn/PlanItOut/blob/Dev/Deliverables/Deliverable_Images/d6_test.PNG)
+
 ## 4. Demo
+
+**Demo Video**
+
+https://user-images.githubusercontent.com/113069537/205549181-2b7b914c-4ed3-4f2c-b4e4-a985e075e3b0.mp4
+
+
 
 ## 5. Code Quality
 In order to guarentee a minimum level of code quality, and a uniform style, we had three best practices for writing project code:
